@@ -1,9 +1,10 @@
 import './App.css';
-
+import React from 'react';
+import Header from "./Components/Header"
 function App() {
   return (
     <div className="App">
-     <p>hello 2 times</p>
+     <Header />
     </div>
   );
 }
