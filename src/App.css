@@ -1,4 +1,31 @@
 .App {
-  text-align: center;
+  
 }
 
+.middle {
+  background: linear-gradient(#e66465, #9198e5);
+  border: 3px solid black;
+  width: 100%;
+  height: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  margin: 0 50px;
+}
+
+.nav-li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.mgl20 {
+  margin-left: 20px;
+  padding: 1.1rem 0 .8rem 0;
+}
