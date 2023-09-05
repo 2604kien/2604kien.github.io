@@ -6,16 +6,14 @@ const boxes = gsap.utils.toArray('li');
 export default function Navbar(){
     const component = React.useRef(null);
     const boxes = gsap.utils.toArray('li');
-    React.useLayoutEffect(() => {
+    React.useEffect(() => {
         const ctx = gsap.context(() => {
             
             boxes.forEach(box => {
-                gsap.from(box,.15,{top:-10,opacity:0,ease:'none'},'+=0.0');
-              
-             
+                gsap.from(box,.15,{top:-10,opacity:0,ease:'none'},'+=0.0');             
             });
         }, component);
-        return () => {ctx.revert()};
+        return (() => {ctx.revert()});
     }, []);
     return (
         <nav className="navbar">
