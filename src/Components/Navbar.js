@@ -1,6 +1,18 @@
-import React from "react";
+import React, {  useEffect, useRef } from "react";
+import { gsap } from "gsap";
+const boxes = gsap.utils.toArray('li');
 
 export default function Navbar(){
+    const component = useRef(null);
+    useEffect(() => {
+        const ctx = gsap.context(() => {
+            boxes.forEach(box => {
+                gsap.from(box,.15,{top:-10,opacity:0,ease:'none'},'+=0.0')
+                console.log("Hello")
+            });
+        }, component)
+        return () => ctx.revert();
+    }, [])
     return (
         <nav className="navbar">
             <div>Hong Kien</div>
