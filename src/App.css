@@ -32,4 +32,22 @@
 /*NAV BAR*/
 li {
   position: relative;
+  cursor: pointer;
+  color: gray;
+  font-weight: 500;
+}
+
+.test ul li::after {
+  content: '';
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  top: 3px;
+  transition: width .75s ease, background-color .75s ease;
+}
+.test ul li:hover::after {
+  width: 100% ;background: #c1E73E;
 }
