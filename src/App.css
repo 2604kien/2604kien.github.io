@@ -36,7 +36,6 @@ li {
   color: gray;
   font-weight: 500;
 }
-
 .test ul li::after {
   content: '';
   position: relative;
@@ -51,3 +50,4 @@ li {
 .test ul li:hover::after {
   width: 100% ;background: #c1E73E;
 }
+
