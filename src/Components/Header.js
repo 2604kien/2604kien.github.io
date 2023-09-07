@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import  gsap  from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import Profile from "../Images/Profile.png";
 export default function Header(){
     gsap.registerPlugin(ScrollTrigger);
 
@@ -53,14 +54,21 @@ export default function Header(){
     return (
         <div className="container-fluid middle">
             <div className="header">
-                <div ref={component02} className="header-1">
-                    <h1 className="container-h">{array01}</h1>
-                </div>
-                <div ref={component02} className="header-2">
-                    <h4 className="container-h">{array02}</h4>
-                </div>
-                <div ref={component02} className="header-3">
-                    <h2 className="container-h">{array03}</h2>
+                <div className="row">
+                    <div style={{flexDirection: "column"}} className="col d-flex align-items-center ">
+                        <div ref={component02} className="header-1">
+                            <h1 className="container-h">{array01}</h1>
+                        </div>
+                        <div ref={component02} className="header-2">
+                            <h4 className="container-h">{array02}</h4>
+                        </div>
+                        <div ref={component02} className="header-3">
+                            <h2 className="container-h">{array03}</h2>
+                        </div>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                        <img src={Profile} className="img-fluid"/>
+                    </div>
                 </div>
             </div>
             <div ref={component01}>
