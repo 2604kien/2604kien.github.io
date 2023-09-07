@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../Images/Profile.jpg";
+import Profile from "../Images/Profile.png";
 import { motion, useViewportScroll, useInView, useAnimation} from "framer-motion/dist/framer-motion"
 import "./About.css"
 import { description } from "../Documents/AboutMe";
