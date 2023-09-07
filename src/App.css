@@ -4,10 +4,12 @@
 
 .middle {
   /* background: linear-gradient(#e66465, #9198e5); */
-  background: #ccc;
+  background-image: url('./Images/HeaderBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 3px solid black;
   width: 100%;
-  height: 80rem;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
