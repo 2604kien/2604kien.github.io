@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import  gsap  from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import moon from "../Images/moon.svg";
 export default function Header(){
     gsap.registerPlugin(ScrollTrigger);
 
@@ -52,7 +52,8 @@ export default function Header(){
 
     return (
         <div className="container-fluid middle">
-            <div style={{marginTop:"13%"}} className="header">
+            <img className="moon "src={moon} />
+            <div className="header">
                 <div ref={component02} className="header-1">
                     <h1 className="container-h">{array01}</h1>
                 </div>
@@ -64,10 +65,10 @@ export default function Header(){
                 </div>
             </div>
             <div ref={component01}>
-                <div id="parallax-bg-2" className="parallax-bg" data-speed=".4">
-                    <div id="bg-2-1"></div>
+                <div id="parallax-bg-2" className="parallax-bg" data-speed=".8">
+                   
                     <div id="bg-2-2"></div>
-                    <div id="bg-2-3"></div> 
+                
                     <div id="bg-2-4"></div>
                     <div id="bg-2-5"></div>
                     <div id="bg-2-6"></div>
