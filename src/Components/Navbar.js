@@ -1,7 +1,6 @@
 import React from "react";
 import  gsap  from "gsap";
 
-
 export default function Navbar(){
     const component = React.useRef(null);
     React.useLayoutEffect(() => {
@@ -18,7 +17,8 @@ export default function Navbar(){
         return (() => {ctx.revert()});
     }, []);
     return (
-        <nav className="navbar">
+    <div style={{backgroundColor:"white", opacity:0.7}}>
+        <nav className="navbar" >
             <div >Hong Kien</div>
             <div className="test">
                 <ul ref={component} className="nav-li">
@@ -31,5 +31,6 @@ export default function Navbar(){
                 </ul>
             </div>
         </nav>
+    </div>
     )
 }
