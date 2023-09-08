@@ -31,7 +31,7 @@ export default function Header(){
         let str02 = "Full Stack Developer";
         setArray02(() => str02.split("").map((e,i)=><div className="k1" key={i}>{e}</div>))
 
-        let str03 = "Welcome to my portfolio";
+        let str03 = "Welcome To My Lair";
         setArray03(() => str03.split("").map((e,i)=><div className="k1" key={i}>{e}</div>))
 
         const text1 = gsap.utils.toArray('.k1');
