@@ -7,8 +7,8 @@ export default function About(){
     const text=React.useRef(null);
     const imageRef=React.useRef(null);
 
-    const isTextInView=useInView(text,{once:true});
-    const isImageInView=useInView(imageRef, {once:true});
+    const isTextInView=useInView(text,{once:false});
+    const isImageInView=useInView(imageRef, {once:false});
 
     const controlText=useAnimation();
     const controlImage=useAnimation();
@@ -18,8 +18,15 @@ export default function About(){
         if(isTextInView) {
             controlText.start("visible");
             slideControl.start("visible");
+        }
+        else{
+            controlText.start("hidden");
+            slideControl.start("hidden");
         };
-        if(isImageInView) controlImage.start("visible");
+        if(isImageInView) {
+            controlImage.start("visible")
+        }
+        else controlImage.start("hidden");
     },[isTextInView, isImageInView])
     return(
         <div className="container-fluid animateSection p-3">
