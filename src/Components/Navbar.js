@@ -17,7 +17,7 @@ export default function Navbar(){
         return (() => {ctx.revert()});
     }, []);
     return (
-    <div style={{backgroundColor:"white", opacity:0.7}}>
+    <div style={{backgroundColor:"rgb(159, 159, 159)", color: "black", opacity:0.7}}>
         <nav className="navbar" >
             <div >Hong Kien</div>
             <div className="test">

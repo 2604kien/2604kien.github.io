@@ -55,7 +55,7 @@ div#bg-2-6 {
 li {
   position: relative;
   cursor: pointer;
-  color: gray;
+  color: rgb(0, 0, 0);
   font-weight: 500;
 }
 .test ul li::after {

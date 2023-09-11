@@ -2,8 +2,10 @@
   display: grid;
   grid-template-rows: 10vw 10vw 10vw 10vw 8vw 2vw;
   grid-template-columns: 10vw 10vw 20vw 20vw 20vw 5vw 5vw 5vw;
-    width: 100%;
-  background-color: rgb(255, 255, 255);
+    width: fit-content;
+    background-color: transparent;
+  background-color: transparent;
+  margin-left: 1vw;
   color: rgb(0, 0, 0);
 }
 
@@ -34,6 +36,8 @@
   grid-row: 3/6;
   grid-column: 2/6;
   height:100%;
+  background-color: transparent;
+  border: 3px solid black;
 }
 
 .diffText{
