@@ -1,68 +1,57 @@
 import React, { useState } from "react";
-import "./Header.css";
-import photo from "../Images/HeaderBackground1.png"
+import "./css/Header.css";
 import gsap from "gsap";
-
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { description } from "../Documents/AboutMe";
 
 export default function Header(){
-    let item1=React.useRef(null);
-    let item2=React.useRef(null);
-    let item3=React.useRef(null);
-    let item4=React.useRef(null);
+    let text=React.useRef(null);
+    let photo=React.useRef(null);
+    let scroll=React.useRef(null);
+
     React.useEffect(()=>{
-      let ctx=gsap.context(()=>{
-        let tl=gsap.timeline();
-        tl.from(item2, { y: -1000,
-          duration: 2,
-          ease: "easeIn"}).to(item2,{
-            y: 20,
-            repeat: -1,
-            opacity: 0.6,
-            yoyo: true,
-            duration: 1,
-            ease: "sineInOut"
-          })
-        gsap.from(item1,{
-          x: 1000,
-          ease: "easeIn",
-        duration: 2
-        });
-
-        gsap.from(item3, {
-          x: -100,
-          opacity:0,
-          duration: 2,
-          ease: "power4.inOut"
-        });
-        gsap.to(item4, {
-          clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
-          opacity:1,
-          duration: 2,
-          ease: "easeIn"
-        });
-        
-      });
-
-      return ()=> {ctx.revert()}
+        let ctx=gsap.context(()=>{
+            const tl=gsap.timeline();
+            tl.from(text, {
+                duration: 1,
+                y: 100,
+                opacity: 0,
+                ease: "power4.easeInOut"
+            }).from(scroll,{
+                duration: 1,
+                y: 50,
+                opacity: 0,
+                ease: "easeInOut",
+                delay: 0.2
+            }).to(scroll, {
+                y: 10,
+                opacity: 0.8,
+                yoyo: true,
+                repeat: -1,
+                ease: "Sine.easeInOut",
+                duration: 1
+            })
+            gsap.from(photo,{
+                duration: 1,
+                scale: 0.8
+            })
+        })
+        return ()=>{ctx.revert()}
     },[])
-
-    console.log("hi")
     return (
-        <div >
-          <div className="grid-container" width="100%" style={{overflow: "hidden"}}>
-            <div className="name" style={{overflow: "hidden"}}>
-            <p ref={el=>{item1=el}}style={{fontSize:"5vw", letterSpacing:2}}>KIEN NGUY</p>
+        <div className="header-container" >
+          <div className="header-text">
+        
+            
+            <h1 style={{position: "absolute", color: "#333", top:"23%", opacity: 0.3, fontSize: "70px"}}> Web Developer</h1>
+            <div ref={el=>{text=el}}>
+                <div style={{fontSize: "2.3em", fontWeight: "bold "}}>Hello World!!!</div>
+                    <h1 style={{fontSize: "55px"}}>Hong Kien Nguyen</h1>
+                    <p style={{fontSize: "1.2em"}}>{description}</p>
+                </div>
+                <p className="border-bottom border-primary" ref={el=>{scroll=el}} style={{fontSize:"2em", width: "fit-content"}}>Scroll For More ↓</p>
             </div>
-            <div className="explore">
-            <p ref={el=>{item2=el}}style={{fontSize:"5vw", wordBreak:"break-all", lineHeight: 1, paddingTop: "1.2vw", textAlign:"center"}}>EXPLORE ↓</p>
-            </div>
-            <div className="name2" style={{fontSize:"5vw"}}><div>N</div></div>
-            <div className="title" style={{overflow: "hidden"}}>
-            <p ref={el=>{item3=el}} className="title" style={{fontSize:"5vw"}}>FULL-STACK</p>
-            </div>
-          <img ref={el=>{item4=el}} src={photo} className="intro"/>
-          </div>
+            <div ref={el=>{photo=el}} className="header-img"></div>
+            
         </div>
     );
 }
