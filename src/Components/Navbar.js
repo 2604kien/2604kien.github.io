@@ -1,36 +1,42 @@
 import React from "react";
 import  gsap  from "gsap";
+import {motion} from "framer-motion/dist/framer-motion";
+import {data} from "../Documents/SignatureSVG"
+import "./css/Navbar.css"
+import 'bootstrap/dist/css/bootstrap.css';
+const transition={duration: 3, yoyo: Infinity, ease: "easeInOut"};
 
 export default function Navbar(){
-    const component = React.useRef(null);
-    React.useLayoutEffect(() => {
-        const boxes = gsap.utils.toArray('li');
-        const ctx = gsap.context(() => {
-            boxes.forEach(box => {
-                gsap.from(box,.15,{top:-10,opacity:0,ease:'none'},'+=0.0');
-            });
-            boxes.forEach(li => {
-                li.addEventListener("mouseenter", () => gsap.to(li,.25,{color:'green',ease:'none'},'+=0.0').play());
-                li.addEventListener("mouseleave", () => gsap.to(li,.25,{color:'gray',ease:'none'},'+=0.0').play());
-            });
-        }, component);
-        return (() => {ctx.revert()});
-    }, []);
+  
     return (
-    <div style={{backgroundColor:"rgb(159, 159, 159)", color: "black", opacity:0.7}}>
-        <nav className="navbar" >
-            <div >Hong Kien</div>
-            <div className="test">
-                <ul ref={component} className="nav-li">
-                    <li className="mgl20">Home</li>
-                    <li className="mgl20">About</li>
-                    <li className="mgl20">Projects</li>
-                    <li className="mgl20">Education</li>
-                    <li className="mgl20">Technologies</li>
-                    <li className="mgl20">Contact</li>
-                </ul>
-            </div>
+        <nav>
+            <ul className="nav-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
+                    <motion.path
+                        d={data}
+                        strokeWidth="3px"
+                        stroke="rgb(255,255,255)"
+                        strokeLinecap="round"
+                        initial={{ pathLength: 0, fill: "rgb(255,255,255,0)" }}
+                        animate={{ pathLength: 1, fill: "rgb(255,255,255,0)"}}
+                        transition={transition}
+                    ></motion.path>
+                    <motion.div
+                        className="box"
+                        initial={{ offsetDistance: "0%", scale: 1 }}
+                        animate={{ offsetDistance: "100%", scale: 1 }}
+                        transition={transition}
+                    />
+                </svg>
+                
+                <li> Home </li>
+                <li> Project </li>
+                
+                <li> Skills </li>
+                <li> Education </li>
+                <li> Contact </li>
+            </ul>
+            
         </nav>
-    </div>
     )
 }
