@@ -2,11 +2,11 @@
 .header-container{
   display: flex;
   align-items: center;
-  height: 700px;
+  height: 800px;
   box-sizing: border-box;
   max-width: 1000px;
   position: relative;
-  top: 75px;
+  top: 150px;
 }
 .header-img{
   background-image: url('../Images/Profile.png');

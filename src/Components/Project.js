@@ -1,16 +1,35 @@
 import React from "react";
 import "./css/Project.css"
+import { imageData } from "../Documents/ImageData";
+import ProjectContent from "./ProjectContent";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
 export default function Project(){
+    let title=React.useRef(null);
+    gsap.registerPlugin(ScrollTrigger);
+    React.useEffect(()=>{
+        let ctx=gsap.context(()=>{
+            gsap.from(title, {
+                scrollTrigger:{
+                    trigger: title,
+                    toggleActions: "play none none none"
+                },
+                opacity: 0,
+                duration: 1,
+                ease: "easeInOut",
+                y: 100
+            })
+        });
+        return ()=>{ctx.revert()}
+    },[])
+    console.log(imageData);
+    const projectElement=imageData.map((data, i)=><ProjectContent key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
         <div className="project">
-            <h1>Projects</h1>
+            <h1 ref={el=>{title=el}} style={{fontWeight: "bold"}}>PROJECTS</h1>
             <div className="g-container">
-                <img className="item1"></img>
-                <img className="item2"></img>
-                <img className="item3"></img>
-                <img className="item4"></img>
-                <img className="item5"></img>
-                <img className="item6"></img>
+                {projectElement}
             </div>
         </div>
     )
