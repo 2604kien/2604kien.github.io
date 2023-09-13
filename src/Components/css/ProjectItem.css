@@ -1,0 +1,7 @@
+.projectItem{
+    font-size: 30px;
+    width: 75%;
+    cursor: pointer;
+    padding-top: 5vh;
+    margin-bottom: 5vw;
+}

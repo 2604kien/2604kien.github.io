@@ -29,9 +29,8 @@ export default function Navbar(){
                     />
                 </svg>
                 
-                <li> Home </li>
-                <li> Project </li>
-                
+                <li onClick={()=>{document.documentElement.scrollTop=0}}> Home </li>
+                <li onClick={()=>{document.documentElement.scrollTop=690}}> Project </li>          
                 <li> Skills </li>
                 <li> Education </li>
                 <li> Contact </li>
