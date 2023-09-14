@@ -24,7 +24,7 @@ export default function Project(){
         return ()=>{ctx.revert()}
     },[])
     console.log(imageData);
-    const projectElement=imageData.map((data, i)=><ProjectContent key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
+    const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
         <div className="project">
             <h1 ref={el=>{title=el}} style={{fontWeight: "bold"}}>PROJECTS</h1>
