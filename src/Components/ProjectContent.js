@@ -13,7 +13,7 @@ export default function ProjectContent(props){
                     trigger: component,
                     toggleActions: "play none none none"
                 },
-                duration: 2,
+                duration: 1,
                 y:100,
                 opacity: 0,
                 ease: "easeInOut",
