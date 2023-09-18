@@ -3,20 +3,35 @@ import "./css/Header.css";
 import gsap from "gsap";
 import { description } from "../Documents/AboutMe";
 import { ScrollTrigger } from "gsap/all";
+import { TextPlugin } from "gsap/all";
 export default function Header(){
-    gsap.registerPlugin(ScrollTrigger)
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(TextPlugin);
     let text=React.useRef(null);
     let photo=React.useRef(null);
     let scroll=React.useRef(null);
-
+    let type=React.useRef(null);
+    let cur=React.useRef(null);
+    let word=React.useRef(null);
+    let word1= "Hello World!!!";
     React.useEffect(()=>{
         let ctx=gsap.context(()=>{
             const tl=gsap.timeline();
+            
+            let tl1=gsap.timeline({repeat: 1})
             tl.from(text, {
                 duration: 1,
                 y: 100,
                 opacity: 0,
                 ease: "power4.easeInOut"
+            }).from(type,{
+                duration: 1,
+                y: 50,
+                opacity: 0,
+                ease: "easeInOut"
+            }).to(word, {
+                duration: 1.5,
+                text: word1
             }).from(scroll,{
                 duration: 1,
                 y: 50,
@@ -35,6 +50,12 @@ export default function Header(){
             gsap.from(photo,{
                 duration: 1,
                 scale: 0.8
+            });
+            
+            gsap.to(cur,{
+                opacity: 0,
+                repeat: -1,
+                ease: "power2.inOut"
             })
         })
         return ()=>{ctx.revert()}
@@ -45,12 +66,16 @@ export default function Header(){
         
             
             <h1 style={{position: "absolute", color: "#666", top:"25%", opacity: 0.2, fontSize: "70px"}}> Web Developer</h1>
-            <div ref={el=>{text=el}}>
-                <div style={{fontSize: "2.3em", fontWeight: "bold "}}>Hello World!!!</div>
+
+                <div ref={el=>{type=el}} style={{width: "fit-content"}}>
+                    <span ref={el=>{word=el}} style={{fontSize: "2.3em", fontWeight: "bold "}}></span>
+                    <span ref={el=>{cur=el}} style={{fontSize: "2.3em", fontWeight: "bold "}} className="underScore">_</span>
+                </div>
+                <div ref={el=>{text=el}}>
                     <h1 style={{fontSize: "55px"}}>Hong Kien Nguyen</h1>
                     <p style={{fontSize: "1.2em"}}>{description}</p>
                 </div>
-                <p onClick={()=>{document.documentElement.scrollTop=750}}className="border-bottom border-primary" ref={el=>{scroll=el}} style={{fontSize:"2em", width: "fit-content", cursor:"pointer"}}>Scroll For More ↓</p>
+                <p onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}} className="border-bottom border-primary" ref={el=>{scroll=el}} style={{fontSize:"2em", width: "fit-content", cursor:"pointer"}}>Scroll For More ↓</p>
             </div>
             <div ref={el=>{photo=el}} className="header-img"></div>
             

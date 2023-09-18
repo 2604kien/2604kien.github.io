@@ -26,7 +26,7 @@ export default function Project(){
     console.log(imageData);
     const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
-        <div className="project">
+        <div id="project" className="project pt-5">
             <h1 ref={el=>{title=el}} style={{fontWeight: "bold"}}>PROJECTS</h1>
             <div className="g-container">
                 {projectElement}

@@ -11,7 +11,7 @@ export default function Navbar(){
     return (
         <nav>
             <ul className="nav-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
+                <svg onClick={()=>{document.documentElement.scrollTop=0}} style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
                     <motion.path
                         d={data}
                         strokeWidth="3px"
@@ -30,7 +30,7 @@ export default function Navbar(){
                 </svg>
                 
                 <li onClick={()=>{document.documentElement.scrollTop=0}}> Home </li>
-                <li onClick={()=>{document.documentElement.scrollTop=690}}> Project </li>          
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
                 <li> Skills </li>
                 <li> Education </li>
                 <li> Contact </li>

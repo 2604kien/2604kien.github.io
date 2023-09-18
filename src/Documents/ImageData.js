@@ -46,7 +46,7 @@ src: profile,
 description: "This is a project to practice all my Front-end skills to display and make a good looking website with good animation. I build this website from scratch",
 skill: "ReactJS, GSAP, Figma, Design, CSS, Git Control",
 duration: "",
-link: "#"}
+link: "https://github.com/2604kien/2604kien.github.io"}
 // },
 // scrollTrigger:{
 //     trigger: scroll,
