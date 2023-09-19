@@ -66,7 +66,7 @@ export default function Header(){
           <div className="header-text">
         
             
-            <h1 style={{position: "absolute", color: "#666", top:"38%", opacity: 0.2, fontSize: "70px"}}> Web Developer</h1>
+            <h1 style={{position: "absolute", color: "#666", top:"26%", opacity: 0.2, fontSize: "70px"}}> Web Developer</h1>
 
                 <div ref={el=>{type=el}} style={{width: "fit-content"}}>
                     <span ref={el=>{word=el}} style={{fontSize: "2.3em", fontWeight: "bold "}}></span>
