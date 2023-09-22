@@ -8,3 +8,21 @@
 p{
     font-size: 1.2rem;
 }
+.education--section{
+    width: 80%;
+
+}
+.textEdu{
+    width: 38%;
+}
+@media only screen and (max-width:1000px){
+    .education--section{
+        width: 90%;
+    }
+    .education-container{
+        width: 100%;
+    }
+    .textEdu{
+        width: fit-content;
+    }
+}
