@@ -22,7 +22,7 @@ export default function Education(){
     },[])
     const educationElements= school.map((a, i)=><EducationComponent key={i} id={i} name={a.name} duration={a.duration} qualification={a.qualification} specialisation={a.specialisation} image={a.image} />)
     return(
-        <div className="education--section" style={{display: "flex", flexDirection: "column", alignItems:"center",}}>
+        <div id="education" className="education" style={{display: "flex", flexDirection: "column", alignItems:"center",}}>
              <h1 ref={el=>{title=el}} style={{fontWeight: "bold", overflow: "hidden"}}>EDUCATION</h1>
                  {educationElements}
         </div>
