@@ -2,6 +2,7 @@ import React from "react";
 import gsap from "gsap";
 import {school} from "../Documents/SchoolData.js";
 import EducationComponent from "./EducationComponent.js";
+
 export default function Education(){
     let title=React.useRef(null);
     React.useEffect(()=>{
@@ -12,8 +13,8 @@ export default function Education(){
                     toggleActions: "play none none none"
                 },
                 opacity: 0,
-                duration: 1,
-                ease: "power4.inOut",
+                duration: 1.5,
+                ease: "easeInOut",
                 y: 50
             })
         });
@@ -21,7 +22,7 @@ export default function Education(){
     },[])
     const educationElements= school.map((a, i)=><EducationComponent key={i} id={i} name={a.name} duration={a.duration} qualification={a.qualification} specialisation={a.specialisation} image={a.image} />)
     return(
-        <div style={{display: "flex", flexDirection: "column", alignItems:"center", width: "80%"}}>
+        <div className="education--section" style={{display: "flex", flexDirection: "column", alignItems:"center",}}>
              <h1 ref={el=>{title=el}} style={{fontWeight: "bold", overflow: "hidden"}}>EDUCATION</h1>
                  {educationElements}
         </div>
