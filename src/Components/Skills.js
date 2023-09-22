@@ -1,6 +1,7 @@
 import React from "react";
 import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
 import "./css/Skills.css";
+import gsap from "gsap";
 import { skills } from "../Documents/SkillsData";
 import SkillComponents from "./SkillComponent";
 import Others from "./Others"
@@ -15,11 +16,24 @@ export default function Skills(){
 
     React.useEffect(()=>{
         if(isInView) controlView.start("visible");
+        let ctx=gsap.context(()=>{
+            gsap.from(title, {
+                scrollTrigger:{
+                    trigger: title,
+                    toggleActions: "play none none none"
+                },
+                opacity: 0,
+                duration: 1,
+                ease: "power4.inOut",
+                y: 50
+            })
+        });
+        return ()=>{ctx.revert()}
     },[isInView])
     return(
         
         <div id="skills" className="skills-container">
-            <h1 ref={el=>{title=el}} style={{fontWeight: "bold"}}>SKILLS</h1>
+            <h1 ref={el=>{title=el}} style={{fontWeight: "bold", overflow: "hidden"}}>ABOUT ME</h1>
             <div className="skills">
             <Attribute bc="rgba(255, 204, 0, 0.8)"/>
                 <motion.div 
