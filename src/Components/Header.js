@@ -18,7 +18,6 @@ export default function Header(){
         let ctx=gsap.context(()=>{
             const tl=gsap.timeline();
             
-            let tl1=gsap.timeline({repeat: 1})
             tl.from(text, {
                 duration: 1,
                 y: 100,

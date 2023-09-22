@@ -4,7 +4,7 @@ import "./css/ProjectItem.css";
 import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
 export default function ProjectContent(props){
     let component=React.useRef(null);
-    let isInView=useInView(component, {once:false});
+    let isInView=useInView(component, { once: false });
     const control=useAnimation();
     React.useEffect(()=>{
         if(isInView){
