@@ -1,11 +1,44 @@
 import React from "react";
-import "./css/Skills.css"
+import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
+import "./css/Skills.css";
+import { skills } from "../Documents/SkillsData";
+import SkillComponents from "./SkillComponent";
+import Others from "./Others"
+import Attribute from "./Attribute"
 export default function Skills(){
+    let programming=React.useRef(null);
+    let isInView=useInView(programming, { once: true });
+    const controlView=useAnimation();
     let title=React.useRef(null);
+    const skillElements=skills.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc="#2187e7" inview={isInView} />)
+    const imageDisplay=skills.map((a,i)=><motion.img whileHover={{scale: 1.3, filter: "brightness(1.3)"}} src={a.image} style={{width: "50px", height:"50px"}}/>)
+
+    React.useEffect(()=>{
+        if(isInView) controlView.start("visible");
+    },[isInView])
     return(
         
-        <div id="skills" className="skills">
+        <div id="skills" className="skills-container">
             <h1 ref={el=>{title=el}} style={{fontWeight: "bold"}}>SKILLS</h1>
+            <div className="skills">
+            <Attribute bc="rgba(255, 204, 0, 0.8)"/>
+                <motion.div 
+                variants={{
+                    hidden: {opacity: 0, x: -100},
+                    visible: {opacity: 1, x: 0}
+            }}
+            initial="hidden"
+            animate={controlView}
+            transition={{type:"spring", duration: 1.5}}
+                ref={programming} className="programming">
+                    <div className="title">Web Skill</div>
+                    {skillElements}
+                    <div width="100%" style={{display: "flex", justifyContent: "space-around", alignItems:"center", margin: "10px"}}>
+                        {imageDisplay}
+                    </div>
+            </motion.div>
+            <Others bc="rgba(0, 165, 114, 0.8)"/>
+            </div>
         </div>
     )
 }

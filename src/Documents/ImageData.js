@@ -47,9 +47,4 @@ description: "This is a project to practice all my Front-end skills to display a
 skill: "ReactJS, GSAP, Figma, Design, CSS, Git Control",
 duration: "",
 link: "https://github.com/2604kien/2604kien.github.io"}
-// },
-// scrollTrigger:{
-//     trigger: scroll,
-//     toggleActions: "play none none none"
-// },
 ]
