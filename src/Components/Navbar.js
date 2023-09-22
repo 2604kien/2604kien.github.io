@@ -31,7 +31,7 @@ export default function Navbar(){
                 
                 <li onClick={()=>{document.documentElement.scrollTop=0}}> Home </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
-                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> Skills </li>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li> Education </li>
                 <li> Contact </li>
             </ul>

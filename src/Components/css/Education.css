@@ -1,0 +1,10 @@
+.education-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 15px;
+    align-items: center;
+}
+p{
+    font-size: 1.2rem;
+}
