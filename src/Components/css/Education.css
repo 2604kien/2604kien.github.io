@@ -17,7 +17,7 @@ p{
 }
 @media only screen and (max-width:1000px){
     .education{
-        width: 90%;
+        width: 100%;
     }
     .education-container{
         width: 100%;
@@ -25,4 +25,7 @@ p{
     .textEdu{
         width: fit-content;
     }
+}
+.textEdu > p > span{
+    text-decoration: underline;
 }
