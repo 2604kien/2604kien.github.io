@@ -45,7 +45,7 @@ export default function Skills(){
             animate={controlView}
             transition={{type:"spring", duration: 1.5}}
                 ref={programming} className="programming">
-                    <div className="title">Web Skill</div>
+                    <div className="title">Web SKILLs</div>
                     {skillElements}
                     <div width="100%" style={{display: "flex", justifyContent: "space-around", alignItems:"center", margin: "10px"}}>
                         {imageDisplay}

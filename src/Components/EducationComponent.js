@@ -27,9 +27,9 @@ export default function EducationComponent(props){
                 <img src={props.image} style={{width: "135px", height:"150px"}}/>
                 <div className="textEdu" style={{paddingLeft:"30px"}}>
                     <h2>{props.name}</h2>
-                    <p>Duration: {props.duration}</p>
-                    <p>Qualification: {props.qualification}</p>
-                    <p>Specialisation: {props.specialisation}</p>
+                    <p><span>Duration:</span> {props.duration}</p>
+                    <p><span>Qualification:</span> {props.qualification}</p>
+                    <p><span>Specialisation:</span> {props.specialisation}</p>
                 </div>
             </div>
         </div>
