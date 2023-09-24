@@ -11,7 +11,7 @@ export default function ProjectContent(props){
         if(isInView){
             control.start("visible");
         }
-    },[isInView]);
+    },[isInView, control]);
     const prevImage=()=>{
         setCurrIMG(prev=>{
             return prev<=0? props.src.length-1 : prev-1;

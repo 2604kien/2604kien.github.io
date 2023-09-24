@@ -20,7 +20,7 @@ export default function EducationComponent(props){
             })
         });
         return ()=>{ctx.revert()}
-    },[])
+    })
     return(
         <div ref={el=>{edu=el}} className="container-fluid">
             <div className="education-container" style={{justifyContent: (props.id%2!==0?"flex-end": "flex-start")}}>

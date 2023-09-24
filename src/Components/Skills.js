@@ -29,7 +29,7 @@ export default function Skills(){
             })
         });
         return ()=>{ctx.revert()}
-    },[isInView])
+    },[isInView, controlView])
     return(
         
         <div id="skills" className="skills-container">
