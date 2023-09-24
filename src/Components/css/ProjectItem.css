@@ -18,13 +18,13 @@
     width: 50px;
     color: white;
     transform: scaleX(-1);
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .next{
     height: 100px;
     width: 50px;
     color: white;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .next:hover{
     scale: 1.1;
