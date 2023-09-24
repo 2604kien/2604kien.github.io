@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfe6a727.css",
-    "main.js": "/static/js/main.6f09bdeb.js",
+    "main.css": "/static/css/main.67ea7b7d.css",
+    "main.js": "/static/js/main.353362c5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
@@ -28,15 +28,15 @@
     "static/media/React.png": "/static/media/React.ac14d2f265d39f14fb97.png",
     "static/media/java.svg": "/static/media/java.bca750bf42983252246285261ebbc976.svg",
     "static/media/sql.svg": "/static/media/sql.bfc12e02cc32df8d41be8abeffe51ec9.svg",
-    "static/media/php.svg": "/static/media/php.7d28d30bbef7c6e4156c1fc581a6b0f0.svg",
+    "static/media/php.svg": "/static/media/php.a7f9fe6650ade264fc03233a352d54ec.svg",
     "static/media/C++.svg": "/static/media/C++.a776a608546a79750b150829bc9b099e.svg",
     "index.html": "/index.html",
-    "main.cfe6a727.css.map": "/static/css/main.cfe6a727.css.map",
-    "main.6f09bdeb.js.map": "/static/js/main.6f09bdeb.js.map",
+    "main.67ea7b7d.css.map": "/static/css/main.67ea7b7d.css.map",
+    "main.353362c5.js.map": "/static/js/main.353362c5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfe6a727.css",
-    "static/js/main.6f09bdeb.js"
+    "static/css/main.67ea7b7d.css",
+    "static/js/main.353362c5.js"
   ]
 }
