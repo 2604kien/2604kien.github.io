@@ -14,10 +14,21 @@
         grid-template-columns: auto auto;
     }
 }
+@media only screen and (max-width: 1000px){
+    .skills{
+        grid-template-columns: auto auto;
+        gap: 15vw;
+    }
+}
 @media only screen and (max-width: 800px){
     .skills{
         grid-template-columns: auto;
         gap: 20vw;
+    }
+}
+@media only screen and (max-width: 500px){
+    .skills{
+        gap: 30vw;
     }
 }
 .skills-container{
