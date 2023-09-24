@@ -32,14 +32,14 @@ export default function ProjectContent(props){
         animate={control}
         transition={{type:"spring", duration: 2}}
         ref={component}  className="projectItem">
-            <div style={{display: "flex", alignItems:"center", flexDirection: "row", width: "fit-content",width:"75%", marginLeft:"12.5%"}}>
+            <div style={{display: "flex", alignItems:"center", flexDirection: "row", width: "fit-content", marginLeft:"12.5%"}}>
                 <h2 style={{color: "#333", opacity: 0.3, fontSize: "50px"}}>0{props.id+1}</h2>
                 <h2 style={{marginLeft:"15px"}}>{props.name}</h2>
             </div>    
                 <div className="image--section">
-                    <img src={next} onClick={prevImage} style={{visibility: props.src.length<=1?"hidden": "visible", cursor: "pointer"}} className="prev"/>
-                    <img className="proIMG" onClick={()=>{window.location.href=props.link}} style={{width: "100%", borderRadius: 20, cursor: "pointer"}} src={props.src[currIMG]} />
-                    <img src={next} onClick={nextImage} style={{visibility: props.src.length<=1?"hidden": "visible", cursor: "pointer"}} className="next" />
+                    <img src={next} onClick={prevImage} style={{visibility: props.src.length<=1?"hidden": "visible", cursor: "pointer"}} className="prev" alt="Left arrow"/>
+                    <img className="proIMG" onClick={()=>{window.location.href=props.link}} style={{width: "100%", borderRadius: 20, cursor: "pointer"}} alt="Project IMG" src={props.src[currIMG]} />
+                    <img src={next} onClick={nextImage} style={{visibility: props.src.length<=1?"hidden": "visible", cursor: "pointer"}} alt="Right Arrow" className="next" />
                 </div>
                 <p style={{fontSize: "1.2rem",width:"75%", marginLeft:"12.5%"}}><span style={{fontWeight: "600"}}>Skills:</span> {props.skill}</p>
                 <p style={{fontSize: "1.2rem", width:"75%", marginLeft:"12.5%"}}>{props.description}</p>

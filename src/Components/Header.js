@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/Header.css";
 import gsap from "gsap";
 import { description } from "../Documents/AboutMe";
@@ -13,7 +13,7 @@ export default function Header(){
     let type=React.useRef(null);
     let cur=React.useRef(null);
     let word=React.useRef(null);
-    let word1= "Hello World!!!";
+    const word1= "Hello World!!!";
     React.useEffect(()=>{
         let ctx=gsap.context(()=>{
             const tl=gsap.timeline();
