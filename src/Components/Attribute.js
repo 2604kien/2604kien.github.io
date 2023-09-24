@@ -29,9 +29,7 @@ export default function Attribute(props){
                 className="programming">
                 <div className="title" onMouseOver={()=>handleChange("rgba(255, 204, 0, 0.8)")} onMouseLeave={()=>handleChange("rgba(29, 29, 29, 0.856)")} style={{backgroundColor:backColor}}>Attribute</div>
                     {skillElements}
-                    {/* <div width="100%" style={{display: "flex", justifyContent: "space-around", alignItems:"center", margin: "10px"}}>
-                        {imageDisplay}
-                    </div> */}
+                    
                 </motion.div>
     )
 }

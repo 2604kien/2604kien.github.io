@@ -33,7 +33,7 @@ export default function Navbar(){
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
-                <li> Contact </li>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
             </ul>
             
         </nav>

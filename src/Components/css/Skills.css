@@ -6,9 +6,7 @@
     column-gap: 10vw;
     row-gap: 10vw;
     padding: 60px;
-    border-radius: 35px;
     width: 100%;
-
     
 }
 @media only screen and (max-width: 1300px){
@@ -27,12 +25,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    padding-top: 3%;
 }
 .programming{
     border: 1px solid black;
     padding: 20px;
     background-color: rgba(29, 29, 29, 0.8);
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 3px 5px 0px rgba(0, 0, 0, 0.5);
     color: white;
     position: relative;
 }
