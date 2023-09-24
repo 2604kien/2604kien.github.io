@@ -1,5 +1,5 @@
 import React from "react";
-import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
+import {motion, useAnimation, useInView} from "framer-motion"
 import "./css/Skills.css";
 import { others } from "../Documents/SkillsData";
 import SkillComponents from "./SkillComponent";

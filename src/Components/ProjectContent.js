@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/ProjectItem.css";
 import next from "./Images/next.png"
-import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
+import {motion, useAnimation, useInView} from "framer-motion"
 export default function ProjectContent(props){
     const [currIMG, setCurrIMG]=React.useState(0);
     let component=React.useRef(null);
