@@ -2,18 +2,19 @@ import './App.css';
 import React from 'react';
 import Header from "./Components/Header";
 import Navbar from './Components/Navbar';
-import About from "./Components/About"
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import background from "./Images/HeaderBackground.png"
-
+import Project from './Components/Project';
+import Skills from './Components/Skills';
+import Education from "./Components/Education"
+import Contact from './Components/Contact';
 function App() {
   return (
     <div className="App">
-      <img
-      src={background} style={{position: "fixed", width: "100%", zIndex:"-9"}}/>
-     <Navbar />
-     <Header />
-     <About />
+    <Navbar />
+    <Header />
+    <Project />
+    <Skills />
+    <Education/>
+    <Contact/>
     </div>
   );
 }

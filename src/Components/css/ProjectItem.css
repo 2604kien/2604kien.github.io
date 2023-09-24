@@ -1,0 +1,48 @@
+.projectItem{
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 5vh;
+    
+}
+.proIMG:hover{
+    scale: 1.05;
+}
+.image--section{
+    display: grid;
+    grid-template-columns: 12.5% 75% 12.5%;
+    align-items: center;
+    justify-items: center;
+}
+.prev{
+    height: 100px;
+    width: 50px;
+    color: white;
+    transform: scaleX(-1);
+    opacity: 0.5;
+}
+.next{
+    height: 100px;
+    width: 50px;
+    color: white;
+    opacity: 0.5;
+}
+.next:hover{
+    scale: 1.1;
+}
+.prev:hover{
+    scale: 1.1;
+}
+@media only screen and (max-width: 900px){
+    .next{
+        scale: 0.6
+    }
+    .next:hover{
+        scale: 0.7
+    }   
+    .prev{
+        scale: 0.6
+    }
+    .prev:hover{
+        scale: 0.7
+    }
+}
