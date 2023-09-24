@@ -13,6 +13,7 @@ import fighting3 from "../Components/Images/jsFighting3.png"
 import meme from "../Components/Images/meme.png"
 import meme1 from "../Components/Images/meme1.png"
 import quiz from "../Components/Images/quiz.png"
+import quiz1 from "../Components/Images/quiz1.png"
 import profile from "../Components/Images/porfolio.png"
 export const imageData=[{
     name: "Advice Cyborg",
@@ -44,7 +45,7 @@ export const imageData=[{
     link: "https://github.com/2604kien/better-meme-generator"
 },{
     name: "Quiz Generator",
-    src: [quiz],
+    src: [quiz1, quiz],
     description: "This project is to practice fetching data from an API and how to manage it such as randomize displayed fetch data (Quiz's Answers)",
     skill: "ReactJs, CSS, Javascript, Git Control",
     duration: "",
