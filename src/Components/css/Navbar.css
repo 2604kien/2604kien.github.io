@@ -26,6 +26,11 @@ nav{
     font-size: 2.5vw;
   }
 }
+@media only screen and (max-width: 500px ){
+  .nav-item>li{
+    font-size: 2vw;
+  }
+}
 .nav-item>li {
     
     text-align: center;

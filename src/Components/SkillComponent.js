@@ -1,6 +1,6 @@
 import React from "react";
 import gsap from "gsap";
-import {motion, useAnimation, useInView} from "framer-motion/dist/framer-motion"
+import {motion, useAnimation, useInView} from "framer-motion"
 import "./css/SkillComponent.css"
 export default function SkillComponents({name, image, proficiency, bc}){
     let pro=React.useRef(null);
