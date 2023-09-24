@@ -68,3 +68,14 @@ form > button:hover{
         width: 300px;
     }
 }
+@media only screen and (max-width: 500px){
+    .name{
+        width: 200px;
+    }
+    .message{
+        width: 300px;
+    }
+    .email{
+        width: 300px;
+    }
+}
