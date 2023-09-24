@@ -13,7 +13,7 @@ export default function Contact(){
         message:""
     })
     function handleChange(e){
-        const {name, type, value}= e.target;
+        const {name, value}= e.target;
         setFormData((prev)=>{
             return {
                 ...prev,

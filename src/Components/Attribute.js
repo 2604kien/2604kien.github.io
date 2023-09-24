@@ -7,7 +7,6 @@ export default function Attribute(props){
     let attribute1=React.useRef(null);
     let isInView=useInView(attribute1, {once: true});
     const controlView=useAnimation();
-    let title=React.useRef(null);
     const [backColor, setBackColor]=React.useState("rgba(29, 29, 29, 0.856)");
     const skillElements=attribute.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc={props.bc}/>)
     function handleChange(color){

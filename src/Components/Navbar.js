@@ -1,5 +1,4 @@
 import React from "react";
-import  gsap  from "gsap";
 import {motion} from "framer-motion";
 import {data} from "../Documents/SignatureSVG"
 import "./css/Navbar.css"

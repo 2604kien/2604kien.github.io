@@ -7,7 +7,6 @@ export default function Attribute(props){
     let other1=React.useRef(null);
     let isInView=useInView(other1, {once: true});
     const controlView=useAnimation();
-    let title=React.useRef(null);
     const [backColor, setBackColor]=React.useState("rgba(29, 29, 29, 0.856)");
     const skillElements=others.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc={props.bc}/>);
     const imageDisplay=others.map((a,i)=><motion.img key={i} whileHover={{scale: 1.3, filter: "brightness(1.3)"}} src={a.image} style={{width: "50px", height:"50px"}}/>)

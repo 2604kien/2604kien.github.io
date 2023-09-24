@@ -13,7 +13,6 @@ import fighting3 from "../Components/Images/jsFighting3.png"
 import meme from "../Components/Images/meme.png"
 import meme1 from "../Components/Images/meme1.png"
 import quiz from "../Components/Images/quiz.png"
-import nineMan from "../Components/Images/9man.png"
 import profile from "../Components/Images/porfolio.png"
 export const imageData=[{
     name: "Advice Cyborg",
