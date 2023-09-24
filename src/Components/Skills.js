@@ -12,7 +12,7 @@ export default function Skills(){
     const controlView=useAnimation();
     let title=React.useRef(null);
     const skillElements=skills.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc="#2187e7" inview={isInView} />)
-    const imageDisplay=skills.map((a,i)=><motion.img whileHover={{scale: 1.3, filter: "brightness(1.3)"}} src={a.image} style={{width: "50px", height:"50px"}}/>)
+    const imageDisplay=skills.map((a,i)=><motion.img key={i} whileHover={{scale: 1.3, filter: "brightness(1.3)"}} src={a.image} style={{width: "50px", height:"50px"}}/>)
 
     React.useEffect(()=>{
         if(isInView) controlView.start("visible");
