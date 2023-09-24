@@ -1,0 +1,32 @@
+.education-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 15px;
+    align-items: center;
+}
+p{
+    font-size: 1.2rem;
+}
+.education{
+    width: 80%;
+    padding-top: 3%;
+
+}
+.textEdu{
+    width: 38%;
+}
+@media only screen and (max-width:1000px){
+    .education{
+        width: 100%;
+    }
+    .education-container{
+        width: 100%;
+    }
+    .textEdu{
+        width: fit-content;
+    }
+}
+.textEdu > p > span{
+    text-decoration: underline;
+}
