@@ -34,15 +34,15 @@
 }
 @media only screen and (max-width: 900px){
     .next{
-        scale: 0.8
+        scale: 0.6
     }
     .next:hover{
-        scale: 0.9
+        scale: 0.7
     }   
     .prev{
-        scale: 0.8
+        scale: 0.6
     }
     .prev:hover{
-        scale: 0.9
+        scale: 0.7
     }
 }
