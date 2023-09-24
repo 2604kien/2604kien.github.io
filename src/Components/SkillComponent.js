@@ -8,7 +8,7 @@ export default function SkillComponents({name, image, proficiency, bc}){
     React.useEffect(()=>{
         if(isInView) control.start("visible");
         else control.start("hidden");
-    },[isInView])
+    },[isInView, control])
     return (
         <div style={{display: "flex", alignItems: "flex-start", padding: "10px"}}>
             <div>

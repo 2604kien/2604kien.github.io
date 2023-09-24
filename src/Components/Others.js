@@ -15,7 +15,7 @@ export default function Attribute(props){
     }
     React.useEffect(()=>{
         if(isInView) controlView.start("visible");
-    },[isInView])
+    },[isInVie, controlView])
     return(
                 <motion.div 
                     variants={{
