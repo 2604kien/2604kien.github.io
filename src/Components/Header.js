@@ -65,14 +65,14 @@ export default function Header(){
           <div className="header-text">
         
             
-            <h1 style={{position: "absolute", color: "#666", top:"26%", opacity: 0.2, fontSize: "70px"}}> Web Developer</h1>
+            <h1 className="web" style={{position: "absolute", color: "#666", opacity: 0.2}}> Web Developer</h1>
 
-                <div ref={el=>{type=el}} style={{width: "fit-content"}}>
+                <div className="hello" ref={el=>{type=el}} style={{width: "fit-content"}}>
                     <span ref={el=>{word=el}} style={{fontSize: "2.3em", fontWeight: "bold "}}></span>
                     <span ref={el=>{cur=el}} style={{fontSize: "2.3em", fontWeight: "bold "}} className="underScore">_</span>
                 </div>
                 <div ref={el=>{text=el}}>
-                    <h1 style={{fontSize: "55px"}}>Hong Kien Nguyen</h1>
+                    <h1 className="nameHeader">Hong Kien Nguyen</h1>
                     <p style={{fontSize: "1.2em"}}>{description}</p>
                 </div>
                 <p onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}} className="border-bottom border-primary" ref={el=>{scroll=el}} style={{fontSize:"2em", width: "fit-content", cursor:"pointer"}}>Scroll For More ↓</p>

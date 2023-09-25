@@ -24,6 +24,18 @@
   flex-direction: column;
   width: 100vw;
   padding: 2vw;
+  margin-top:-3%;
+}
+.web{
+  top: 27%;;
+  font-size: 80px;
+}
+
+.hello{
+  margin-bottom: 7%;
+}
+.nameHeader{
+  font-size: 50px;
 }
 @media only screen and (max-width: 700px ){
   .header-img{
@@ -34,9 +46,28 @@
     background-size: contain;
     top: -20px;
   }
+  .header-text{
+    margin-top: -15%;
+  }
+  .web{
+    top:23%;
+    font-size: 70px;
+  }
 }
 @media only screen and (min-width: 700px ){
   .header-img{
     opacity:1;
+  }
+}
+@media only screen and (max-width: 400px ){
+  .web{
+    top:18%;
+    font-size: 55px;
+  }
+  .nameHeader{
+    font-size: 40px;
+  }
+  .header-text{
+    margin-top: -35%;
   }
 }
