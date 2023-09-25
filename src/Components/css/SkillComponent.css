@@ -8,6 +8,7 @@
 }
 .proficiency{
     height: 100%;
+    filter: brightness(1.4);
     box-shadow: 0px 0px 5px 1px #2187e7;
 
 }

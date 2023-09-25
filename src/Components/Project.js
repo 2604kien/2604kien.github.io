@@ -26,7 +26,7 @@ export default function Project(){
     console.log(imageData);
     const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
-        <div className="proContainer" style={{position: "relative", backgroundColor: "white"}}>
+        <div className="proContainer" style={{position: "relative", backgroundColor: "transparent"}}>
             <img className="laptop" src={Monitor} alt="Laptop frame"/>
             <div id="project" className="project">
                 
