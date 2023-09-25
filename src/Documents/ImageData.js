@@ -15,6 +15,8 @@ import meme1 from "../Components/Images/meme1.png"
 import quiz from "../Components/Images/quiz.png"
 import quiz1 from "../Components/Images/quiz1.png"
 import profile from "../Components/Images/porfolio.png"
+import nineman from "../Components/Images/9man.png"
+import nineman1 from "../Components/Images/9man1.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3],
@@ -30,6 +32,14 @@ export const imageData=[{
     duration: "",
     link: "#"
 },{
+    name: "Nine Man Moris Game",
+    src: [nineman, nineman1],
+    description: "This is a 9 man morris game that is made with Java. This project help me to get better understanding with Object Oriented Programming",
+    skill: "Java, OOP, Git Control",
+    duration: "",
+    link: "https://github.com/2604kien/9ManMorris"
+},
+{
     name: "Js Fighting Game",
     src: [fighting, fighting1, fighting2, fighting3],
     description: "This is a project that I did to practice combining my Javascript skills and Object Oriented Programming principles together. The aim of this project is to create a fighting game that 2 players can play locally with their keyboard.",
