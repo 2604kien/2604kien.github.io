@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f9003e5.css",
-    "main.js": "/static/js/main.a8eff277.js",
+    "main.js": "/static/js/main.aa5a965f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
@@ -24,7 +24,9 @@
     "static/media/yogage3.png": "/static/media/yogage3.35ca69323230bf5e32a6.png",
     "static/media/advice.png": "/static/media/advice.c4e7c97824cdc372fa90.png",
     "static/media/advice1.png": "/static/media/advice1.40b53b92462a2b6d890d.png",
+    "static/media/9man1.png": "/static/media/9man1.7d5ae56f4d9575dfd215.png",
     "static/media/javascript.png": "/static/media/javascript.166865dacb77d214f485.png",
+    "static/media/9man.png": "/static/media/9man.b44f41b9ab84c520882e.png",
     "static/media/Html.png": "/static/media/Html.5b4f7830e55f859417f6.png",
     "static/media/React.png": "/static/media/React.ac14d2f265d39f14fb97.png",
     "static/media/java.svg": "/static/media/java.bca750bf42983252246285261ebbc976.svg",
@@ -33,11 +35,11 @@
     "static/media/C++.svg": "/static/media/C++.a776a608546a79750b150829bc9b099e.svg",
     "index.html": "/index.html",
     "main.0f9003e5.css.map": "/static/css/main.0f9003e5.css.map",
-    "main.a8eff277.js.map": "/static/js/main.a8eff277.js.map",
+    "main.aa5a965f.js.map": "/static/js/main.aa5a965f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f9003e5.css",
-    "static/js/main.a8eff277.js"
+    "static/js/main.aa5a965f.js"
   ]
 }
