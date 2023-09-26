@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f9003e5.css",
-    "main.js": "/static/js/main.aa5a965f.js",
+    "main.js": "/static/js/main.be1e61cb.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
@@ -31,15 +31,17 @@
     "static/media/React.png": "/static/media/React.ac14d2f265d39f14fb97.png",
     "static/media/java.svg": "/static/media/java.bca750bf42983252246285261ebbc976.svg",
     "static/media/sql.svg": "/static/media/sql.bfc12e02cc32df8d41be8abeffe51ec9.svg",
+    "static/media/node-js.svg": "/static/media/node-js.a7647021075b20ebcf315dd54793112d.svg",
     "static/media/php.svg": "/static/media/php.a7f9fe6650ade264fc03233a352d54ec.svg",
     "static/media/C++.svg": "/static/media/C++.a776a608546a79750b150829bc9b099e.svg",
     "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.0f9003e5.css.map": "/static/css/main.0f9003e5.css.map",
-    "main.aa5a965f.js.map": "/static/js/main.aa5a965f.js.map",
+    "main.be1e61cb.js.map": "/static/js/main.be1e61cb.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f9003e5.css",
-    "static/js/main.aa5a965f.js"
+    "static/js/main.be1e61cb.js"
   ]
 }
