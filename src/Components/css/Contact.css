@@ -6,7 +6,7 @@
     text-align: center;
     padding: 20px;
     color: white;
-    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    background: black;
     width: 100%;
 }
 
@@ -22,6 +22,7 @@ form{
 }
 form > input{
     padding-left: 10px;
+    border-radius: 8px;
 }
 .email{
     width: 500px;
@@ -30,6 +31,8 @@ form > input{
     width: 700px;
     height: 200px;
     resize: none;
+    
+    border-radius: 8px;
 }
 form > button:hover{
     scale: 1.08;
