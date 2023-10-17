@@ -71,7 +71,7 @@ export const others =[{
     image: sql
 },{
     name: "PHP",
-    proficiency: 70,
+    proficiency: 85,
     image: php
 }
 ]
