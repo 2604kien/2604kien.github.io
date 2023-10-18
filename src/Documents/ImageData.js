@@ -32,6 +32,13 @@ export const imageData=[{
     duration: "",
     link: "#"
 },{
+    name: "Website Porfolio",
+    src: [profile],
+    description: "This is a project to practice all my Front-end skills to display and make a good looking website with good animation. I build this website from scratch",
+    skill: "ReactJS, GSAP, Figma, Design, CSS, Git Control",
+    duration: "",
+    link: "https://github.com/2604kien/2604kien.github.io"},
+    {
     name: "Nine Man Moris Game",
     src: [nineman, nineman1],
     description: "This is a 9 man morris game that is made with Java. This project help me to get better understanding with Object Oriented Programming",
@@ -39,14 +46,15 @@ export const imageData=[{
     duration: "",
     link: "https://github.com/2604kien/9ManMorris"
 },
+// {
+//     name: "Js Fighting Game",
+//     src: [fighting, fighting1, fighting2, fighting3],
+//     description: "This is a project that I did to practice combining my Javascript skills and Object Oriented Programming principles together. The aim of this project is to create a fighting game that 2 players can play locally with their keyboard.",
+//     skill: "Javascript, HTML, CSS, Git Control",
+//     duration: "",
+//     link: "https://github.com/2604kien/JsFighting"
+// },
 {
-    name: "Js Fighting Game",
-    src: [fighting, fighting1, fighting2, fighting3],
-    description: "This is a project that I did to practice combining my Javascript skills and Object Oriented Programming principles together. The aim of this project is to create a fighting game that 2 players can play locally with their keyboard.",
-    skill: "Javascript, HTML, CSS, Git Control",
-    duration: "",
-    link: "https://github.com/2604kien/JsFighting"
-},{
     name: "Meme Generator",
     src: [meme, meme1],
     description: "This project is when I start learning React and its application. The main purpose of this project is to practice how can fetch data from an API and use external library in React.",
@@ -60,11 +68,5 @@ export const imageData=[{
     skill: "ReactJs, CSS, Javascript, Git Control",
     duration: "",
     link: "https://github.com/2604kien/react_quiz"
-},{
-name: "Website Porfolio",
-src: [profile],
-description: "This is a project to practice all my Front-end skills to display and make a good looking website with good animation. I build this website from scratch",
-skill: "ReactJS, GSAP, Figma, Design, CSS, Git Control",
-duration: "",
-link: "https://github.com/2604kien/2604kien.github.io"}
+}
 ]
