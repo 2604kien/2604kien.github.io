@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.39a13aa3.css",
-    "main.js": "/static/js/main.500e1d8e.js",
+    "main.js": "/static/js/main.9e65534d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
@@ -17,10 +17,6 @@
     "static/media/Monitor.png": "/static/media/Monitor.3be3c2271f40e4755d76.png",
     "static/media/vinh.png": "/static/media/vinh.d9aec147620d24510cf8.png",
     "static/media/monash.png": "/static/media/monash.b93180ed4776e6d30178.png",
-    "static/media/jsFighting3.png": "/static/media/jsFighting3.cc290ddfbd0a37e901bd.png",
-    "static/media/jsFighting1.png": "/static/media/jsFighting1.c22883a9b1df39a6927d.png",
-    "static/media/jsFighting.png": "/static/media/jsFighting.655bfd95d05b82440b87.png",
-    "static/media/jsFighting2.png": "/static/media/jsFighting2.fcbd5fc860c78525903e.png",
     "static/media/yogage3.png": "/static/media/yogage3.35ca69323230bf5e32a6.png",
     "static/media/advice.png": "/static/media/advice.c4e7c97824cdc372fa90.png",
     "static/media/advice1.png": "/static/media/advice1.40b53b92462a2b6d890d.png",
@@ -37,11 +33,11 @@
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.39a13aa3.css.map": "/static/css/main.39a13aa3.css.map",
-    "main.500e1d8e.js.map": "/static/js/main.500e1d8e.js.map",
+    "main.9e65534d.js.map": "/static/js/main.9e65534d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39a13aa3.css",
-    "static/js/main.500e1d8e.js"
+    "static/js/main.9e65534d.js"
   ]
 }
