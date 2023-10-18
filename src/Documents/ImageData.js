@@ -45,16 +45,7 @@ export const imageData=[{
     skill: "Java, OOP, Git Control",
     duration: "",
     link: "https://github.com/2604kien/9ManMorris"
-},
-// {
-//     name: "Js Fighting Game",
-//     src: [fighting, fighting1, fighting2, fighting3],
-//     description: "This is a project that I did to practice combining my Javascript skills and Object Oriented Programming principles together. The aim of this project is to create a fighting game that 2 players can play locally with their keyboard.",
-//     skill: "Javascript, HTML, CSS, Git Control",
-//     duration: "",
-//     link: "https://github.com/2604kien/JsFighting"
-// },
-{
+},{
     name: "Meme Generator",
     src: [meme, meme1],
     description: "This project is when I start learning React and its application. The main purpose of this project is to practice how can fetch data from an API and use external library in React.",
@@ -68,5 +59,14 @@ export const imageData=[{
     skill: "ReactJs, CSS, Javascript, Git Control",
     duration: "",
     link: "https://github.com/2604kien/react_quiz"
-}
-]
+}]
+
+
+// {
+//     name: "Js Fighting Game",
+//     src: [fighting, fighting1, fighting2, fighting3],
+//     description: "This is a project that I did to practice combining my Javascript skills and Object Oriented Programming principles together. The aim of this project is to create a fighting game that 2 players can play locally with their keyboard.",
+//     skill: "Javascript, HTML, CSS, Git Control",
+//     duration: "",
+//     link: "https://github.com/2604kien/JsFighting"
+// },
