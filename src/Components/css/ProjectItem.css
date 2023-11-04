@@ -1,18 +1,26 @@
 .projectItem{
+    display: flex;
+    flex-direction: column;
+    place-content: flex-end;
     font-size: 30px;
     width: 100%;
+    height:300px;
     margin-bottom: 5vh;
+    position: relative;
+    border-radius: 10px;
     
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
 }
-.proIMG:hover{
-    scale: 1.05;
+.clickToKnow{
+    opacity: 0;
 }
-.image--section{
-    display: grid;
-    grid-template-columns: 12.5% 75% 12.5%;
-    align-items: center;
-    justify-items: center;
+.projectItem:hover{
+    scale: 1.03;
+    cursor: pointer;
 }
+
+
 .prev{
     height: 100px;
     width: 50px;
