@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.39a13aa3.css",
-    "main.js": "/static/js/main.1c6a4c03.js",
+    "main.css": "/static/css/main.0c40cc01.css",
+    "main.js": "/static/js/main.b089aa05.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
     "static/media/yogage1.png": "/static/media/yogage1.78b41ed775e746f87687.png",
     "static/media/quiz1.png": "/static/media/quiz1.486eb6a27d01117fbb23.png",
-    "static/media/porfolio.png": "/static/media/porfolio.aa3f6d9718c42c063457.png",
+    "static/media/porfolio.png": "/static/media/porfolio.09dad9e50e4cce6e2605.png",
     "static/media/meme.png": "/static/media/meme.48c6a100c86e4847a3d1.png",
     "static/media/yogage2.png": "/static/media/yogage2.b7c35b2e2bea1a3485c6.png",
     "static/media/Profile.png": "/static/media/Profile.1f3bdae10f523d10bbe9.png",
     "static/media/meme1.png": "/static/media/meme1.82167fa9e56cb09fd1a5.png",
-    "static/media/advice2.png": "/static/media/advice2.f7ffbdfc1293f6d115ca.png",
     "static/media/advice3.png": "/static/media/advice3.482bf01fae3016ee2f59.png",
     "static/media/Monitor.png": "/static/media/Monitor.3be3c2271f40e4755d76.png",
     "static/media/vinh.png": "/static/media/vinh.d9aec147620d24510cf8.png",
@@ -23,6 +22,7 @@
     "static/media/jsFighting2.png": "/static/media/jsFighting2.fcbd5fc860c78525903e.png",
     "static/media/yogage3.png": "/static/media/yogage3.35ca69323230bf5e32a6.png",
     "static/media/advice.png": "/static/media/advice.c4e7c97824cdc372fa90.png",
+    "static/media/advice2.png": "/static/media/advice2.1dee0495f2bea516308a.png",
     "static/media/advice1.png": "/static/media/advice1.40b53b92462a2b6d890d.png",
     "static/media/9man1.png": "/static/media/9man1.7d5ae56f4d9575dfd215.png",
     "static/media/javascript.png": "/static/media/javascript.166865dacb77d214f485.png",
@@ -36,12 +36,12 @@
     "static/media/C++.svg": "/static/media/C++.a776a608546a79750b150829bc9b099e.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
-    "main.39a13aa3.css.map": "/static/css/main.39a13aa3.css.map",
-    "main.1c6a4c03.js.map": "/static/js/main.1c6a4c03.js.map",
+    "main.0c40cc01.css.map": "/static/css/main.0c40cc01.css.map",
+    "main.b089aa05.js.map": "/static/js/main.b089aa05.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39a13aa3.css",
-    "static/js/main.1c6a4c03.js"
+    "static/css/main.0c40cc01.css",
+    "static/js/main.b089aa05.js"
   ]
 }
