@@ -13,8 +13,8 @@ export default function Education(){
                     toggleActions: "play none none none"
                 },
                 opacity: 0,
-                duration: 1.5,
-                ease: "easeInOut",
+                duration: 1,
+                ease: "power4.inOut",
                 y: 50
             })
         });
