@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a287bdf9.css",
-    "main.js": "/static/js/main.e037974e.js",
+    "main.css": "/static/css/main.2fabbfc9.css",
+    "main.js": "/static/js/main.f591bbe4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/racing1.png": "/static/media/racing1.d7093a8158b8954ae7d2.png",
@@ -47,12 +47,12 @@
     "index.html": "/index.html",
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
-    "main.a287bdf9.css.map": "/static/css/main.a287bdf9.css.map",
-    "main.e037974e.js.map": "/static/js/main.e037974e.js.map",
+    "main.2fabbfc9.css.map": "/static/css/main.2fabbfc9.css.map",
+    "main.f591bbe4.js.map": "/static/js/main.f591bbe4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a287bdf9.css",
-    "static/js/main.e037974e.js"
+    "static/css/main.2fabbfc9.css",
+    "static/js/main.f591bbe4.js"
   ]
 }
