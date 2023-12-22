@@ -6,9 +6,22 @@ import 'bootstrap/dist/css/bootstrap.css';
 const transition={duration: 3, yoyo: Infinity, ease: "easeInOut"};
 
 export default function Navbar(){
-  
+    const [dropDown, setDropDown]= React.useState(false);
+    const toggle=()=>{
+        setDropDown(prev=> !prev);
+    }
     return (
         <nav>
+            <div onClick={toggle} className="toggle_btn" >
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul className={dropDown?"dropdown open": "dropdown"}>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
+                <li ><a style={{backgroundColor:"transparent", textDecoration:"none"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
+            </ul>
             <ul className="nav-item">
                 <svg onClick={()=>{document.documentElement.scrollTop=0}} style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
                     <motion.path
