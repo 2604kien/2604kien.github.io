@@ -30,8 +30,8 @@ export default function Contact(){
                     toggleActions: "play none none none"
                 },
                 opacity: 0,
-                duration: 1.5,
-                ease: "easeInOut",
+                duration: 1,
+                ease: "power4.inOut",
                 y: 50
             })
         });
@@ -49,6 +49,7 @@ export default function Contact(){
       };
     return(
         <div id="contact" className="contact">
+            <div className='contact--container'>
              <h1 ref={el=>{title=el}} style={{fontWeight: "bold", overflow: "hidden"}}>CONTACT</h1>
              <div className="contact--form">
                 <form ref={form} onSubmit={sendEmail}>
@@ -62,10 +63,11 @@ export default function Contact(){
                     <label htmlFor="message">Message: <span style={{color: "red"}}>*</span></label>
                     <textarea onChange={handleChange} id="message" className="message" placeholder="Please enter your message." name="message" value={formData.message} required/>
 
-                    <button type="submit" style={{borderRadius: "5px", width:"150px", height:"35px", border:"1px solid white", backgroundColor: "transparent", color: "white"}}>Send</button>
+                    <button type="submit" style={{borderRadius: "5px", width:"150px", height:"35px", border:"2px solid black", backgroundColor: "transparent"}}>Send</button>
                    
                 </form>
 
+             </div>
              </div>
         </div>
     )
