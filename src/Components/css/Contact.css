@@ -1,11 +1,9 @@
 .contact{
     display: flex;
-    margin-top: 5%;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
-    color: white;
     background: black;
     width: 100%;
 }
@@ -22,7 +20,11 @@ form{
 }
 form > input{
     padding-left: 10px;
-    border-radius: 8px;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
 }
 .email{
     width: 500px;
@@ -32,13 +34,21 @@ form > input{
     height: 200px;
     resize: none;
     
-    border-radius: 8px;
+    border: 2px solid;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 form > button:hover{
     scale: 1.08;
 }
 .message{
     padding-left: 10px;
+}
+.contact--container{
+    background-color: white;
+    padding: 20px;
 }
 .success{
     background-color:  #9ce47e;
