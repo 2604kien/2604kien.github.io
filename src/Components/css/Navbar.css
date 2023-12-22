@@ -21,30 +21,33 @@ nav{
     z-index: 100;
     position: fixed;
 }
-@media only screen and (max-width: 700px ){
+
+.nav-item>li {
+    
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 10vw;
+  height: 60px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-item>li:hover{
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 950px ){
   .nav-item>li{
    
+  font-size: 0.8rem;
   }
 }
 @media only screen and (max-width: 500px ){
   .nav-item>li{
+    font-size: 0.6rem
   }
 }
-.nav-item>li {
-    
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    cursor: pointer;
-    width: 10vw;
-    height: 60px;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .nav-item>li:hover{
-    color: black;
-    background-color: white;
-  }
-

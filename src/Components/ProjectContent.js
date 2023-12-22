@@ -42,8 +42,8 @@ export default function ProjectContent(props){
                 <h2 style={{color: props.id===5 || props.id===8? "white":"black",marginLeft:"15px"}}>{props.name}</h2>
             </div>    
             <div className="character">
-                <p style={{fontSize: "1rem",width:"75%"}}><span style={{fontWeight: "600"}}>Skills:</span> {props.skill}</p>
-                <p style={{fontSize: "1rem", width:"75%"}}>{props.description}</p>
+                <p style={{fontSize: "1rem",width:"75%"}}><span style={{fontWeight: "bold", textDecoration:"underline"}}>Skills:</span> {props.skill}</p>
+                <p style={{fontSize: "1rem", width:"75%"}}><span style={{fontWeight: "bold", textDecoration:"underline"}}>Description:</span> {props.description}</p>
             </div>
                 
         </div>
