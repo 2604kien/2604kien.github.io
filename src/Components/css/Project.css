@@ -26,3 +26,8 @@
     grid-template-columns: 500px;
     }
 }
+@media only screen and (max-width: 400px){
+    .g-container{
+    grid-template-columns: 350px;
+    }
+}

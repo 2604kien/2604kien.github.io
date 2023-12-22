@@ -63,7 +63,7 @@ export default function Contact(){
                     <label htmlFor="message">Message: <span style={{color: "red"}}>*</span></label>
                     <textarea onChange={handleChange} id="message" className="message" placeholder="Please enter your message." name="message" value={formData.message} required/>
 
-                    <button type="submit" style={{borderRadius: "5px", width:"150px", height:"35px", border:"2px solid black", backgroundColor: "transparent", textDecoration:"underline"}}><p>Send</p></button>
+                    <div type="submit" style={{borderRadius: "5px", width:"150px", height:"35px", border:"2px solid black", backgroundColor: "transparent", textDecoration:"underline"}}><p>Send</p></div>
                    
                 </form>
 
