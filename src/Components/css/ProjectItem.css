@@ -1,3 +1,77 @@
+
+.cover-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.projectItem:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  
+}
+
+.projectItem:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.projectItem:hover .wrapper::after {
+  height: 120px;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 300px;
+}
+
+.projectItem:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -25%, 0px);
+}
+
+
+
+
 .projectItem{
     display: flex;
     flex-direction: column;
@@ -8,18 +82,13 @@
     margin-bottom: 5vh;
     position: relative;
     border-radius: 10px;
+    cursor: pointer;
     
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 
 }
 .clickToKnow{
     opacity: 0;
 }
-.projectItem:hover{
-    scale: 1.03;
-    cursor: pointer;
-}
-
 
 .prev{
     height: 100px;
