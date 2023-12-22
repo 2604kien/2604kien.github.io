@@ -1,0 +1,87 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensure the overlay is on top of other content */
+  }
+  .content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+.project--overlay{
+  display: flex;
+  flex-direction: column;
+  place-content: flex-end;
+  font-size: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  
+  position: relative;
+  border-radius: 10px;
+  z-index: 100;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  padding: 20px;
+
+}
+.image--section{
+  display: grid;
+  grid-template-columns: 12.5% 75% 12.5%;
+  align-items: center;
+  justify-items: center;
+}
+.clickToKnow{
+  opacity: 0;
+}
+.project-.project--overlay{
+  scale: 1.03;
+  cursor: pointer;
+}
+
+
+.prev{
+  height: 100px;
+  width: 50px;
+  color: white;
+  transform: scaleX(-1);
+  opacity: 0.5;
+  z-index: 20;
+}
+.next{
+  height: 100px;
+  width: 50px;
+  color: white;
+  opacity: 0.5;
+  z-index: 20;
+}
+.next:hover{
+  scale: 1.1;
+}
+.prev:hover{
+  scale: 1.1;
+}
+@media only screen and (max-width: 900px){
+  .next{
+      scale: 0.6
+  }
+  .next:hover{
+      scale: 0.7
+  }   
+  .prev{
+      scale: 0.6
+  }
+  .prev:hover{
+      scale: 0.7
+  }
+}
