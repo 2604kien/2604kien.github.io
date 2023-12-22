@@ -13,14 +13,14 @@ export default function Navbar(){
     return (
         <nav>
             <div onClick={toggle} className="toggle_btn" >
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
             </div>
             <ul className={dropDown?"dropdown open": "dropdown"}>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
-                <li ><a style={{backgroundColor:"transparent", textDecoration:"none"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
+                <li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
             </ul>
             <ul className="nav-item">
                 <svg onClick={()=>{document.documentElement.scrollTop=0}} style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
@@ -44,7 +44,7 @@ export default function Navbar(){
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
-                <li ><a style={{backgroundColor:"transparent", textDecoration:"none"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
+                <li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
             </ul>
             
         </nav>
