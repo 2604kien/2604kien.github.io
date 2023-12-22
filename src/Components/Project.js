@@ -22,19 +22,16 @@ export default function Project(){
             })
         });
         return ()=>{ctx.revert()}
-    },[])
-    console.log(imageData);
+    },[]);
     const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
-        <div className="proContainer" style={{position: "relative", backgroundColor: "transparent"}}>
-            <img className="laptop" src={Monitor} alt="Laptop frame"/>
+
             <div id="project" className="project">
-                
                 <h1 ref={el=>{title=el}} style={{fontWeight: "bold", marginBottom: "70px"}}>PROJECTS</h1>
                 <div className="g-container">
                     {projectElement}
                 </div>
             </div>
-        </div>
+
     )
 }
