@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c40cc01.css",
-    "main.js": "/static/js/main.7bc10179.js",
+    "main.css": "/static/css/main.2b96f64c.css",
+    "main.js": "/static/js/main.bff456dd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
     "static/media/racing1.png": "/static/media/racing1.d7093a8158b8954ae7d2.png",
@@ -18,7 +18,6 @@
     "static/media/Profile.png": "/static/media/Profile.1f3bdae10f523d10bbe9.png",
     "static/media/meme1.png": "/static/media/meme1.82167fa9e56cb09fd1a5.png",
     "static/media/advice3.png": "/static/media/advice3.482bf01fae3016ee2f59.png",
-    "static/media/Monitor.png": "/static/media/Monitor.3be3c2271f40e4755d76.png",
     "static/media/vinh.png": "/static/media/vinh.d9aec147620d24510cf8.png",
     "static/media/monash.png": "/static/media/monash.b93180ed4776e6d30178.png",
     "static/media/jsFighting3.png": "/static/media/jsFighting3.cc290ddfbd0a37e901bd.png",
@@ -47,12 +46,12 @@
     "static/media/C++.svg": "/static/media/C++.a776a608546a79750b150829bc9b099e.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
-    "main.0c40cc01.css.map": "/static/css/main.0c40cc01.css.map",
-    "main.7bc10179.js.map": "/static/js/main.7bc10179.js.map",
+    "main.2b96f64c.css.map": "/static/css/main.2b96f64c.css.map",
+    "main.bff456dd.js.map": "/static/js/main.bff456dd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c40cc01.css",
-    "static/js/main.7bc10179.js"
+    "static/css/main.2b96f64c.css",
+    "static/js/main.bff456dd.js"
   ]
 }
