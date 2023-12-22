@@ -43,7 +43,7 @@
     position: absolute;
     width: 75%;
     opacity: 0.5;
-    z-index: -20;
+    z-index: 0;
     background-size: contain;
     top: -20px;
   }
@@ -51,7 +51,7 @@
     margin-top: -15%;
   }
   .web{
-    top:23%;
+    top:20%;
     font-size: 70px;
   }
 }
@@ -60,9 +60,9 @@
     opacity:1;
   }
 }
-@media only screen and (max-width: 400px ){
+@media only screen and (max-width: 500px ){
   .web{
-    top:18%;
+    top:13%;
     font-size: 55px;
   }
   .nameHeader{

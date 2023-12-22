@@ -10,6 +10,7 @@ import ProjectDisplay from './Components/ProjectDisplay';
 import { useSelector } from 'react-redux';
 function App() {
   const isClicked=useSelector(state=>state.project.isClicked);
+  
   return (
     
     <div className="App">

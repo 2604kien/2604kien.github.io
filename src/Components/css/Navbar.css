@@ -35,6 +35,14 @@ nav{
   font-weight: bold;
   font-size: 1.2rem;
 }
+.nav-item>li>a{
+  
+    color: white;
+}
+.nav-item>li>a:hover{
+  
+  color: black;
+}
 .nav-item>li:hover{
   color: black;
   background-color: white;
@@ -45,9 +53,15 @@ nav{
    
   font-size: 0.8rem;
   }
+  .nav-item>li>a{
+    font-size: 0.8rem;
+  }
 }
 @media only screen and (max-width: 500px ){
   .nav-item>li{
     font-size: 0.6rem
+  }
+  .nav-item>li>a{
+    font-size: 0.6rem;
   }
 }

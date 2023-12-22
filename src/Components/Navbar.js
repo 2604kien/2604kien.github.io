@@ -27,12 +27,11 @@ export default function Navbar(){
                         transition={transition}
                     />
                 </svg>
-                
-                <li onClick={()=>{document.documentElement.scrollTop=0}}> Home </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
+                <li ><a style={{backgroundColor:"transparent", textDecoration:"none"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
             </ul>
             
         </nav>
