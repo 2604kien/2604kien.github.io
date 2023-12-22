@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import {setIsClick, addToProjectDisplay} from "../reducers/projectSlice";
 export default function ProjectContent(props){
     const dispatch=useDispatch();
-    const [currIMG, setCurrIMG]=React.useState(0);
+    const currIMG=0;
     let component=React.useRef(null);
     let isInView=useInView(component, { once: false });
     const control=useAnimation();

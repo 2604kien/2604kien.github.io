@@ -46,7 +46,7 @@ export const imageData=[{
     name: "Website Porfolio",
     src: [profile],
     description: "This project is dedicated to building a comprehensive portfolio website showcasing my skills as a developer, aimed at effectively communicating my expertise and capabilities.",
-    skill: "ReactJS, GSAP, Figma, Design, CSS, Git Control",
+    skill: "ReactJS, Redux, GSAP, Figma, Design, CSS, Git Control",
     duration: "",
     link: "https://github.com/2604kien/2604kien.github.io"},
     {

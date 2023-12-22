@@ -4,7 +4,6 @@ import { imageData } from "../Documents/ImageData";
 import ProjectContent from "./ProjectContent";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Monitor from "./Images/Monitor.png"
 export default function Project(){
     let title=React.useRef(null);
     gsap.registerPlugin(ScrollTrigger);
