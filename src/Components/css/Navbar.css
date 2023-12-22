@@ -1,27 +1,75 @@
 nav{
     display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    height: 77px;
     list-style-type: none;
     width: 100vw;
     padding: 0;
     margin: 0;
     color: white;
+    z-index: 100;
 
 }
 .nav-item{
-    float: left;
     background-color: #000000;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
     width: 100%;
     right: 0px;
     list-style-type: none;
-    z-index: 100;
-    position: fixed;
-}
+    position: absolute;
 
+}
+.dropdown{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  left: 10%;
+  top: 80%;
+  height: 0px;
+  color: white;
+  width: fit-content;
+  list-style-type: none;
+  background-color: rgba(0,0,0,0.8);
+  padding: 0;
+  z-index: 100;
+  overflow: hidden;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.open{
+  height: 300px;
+}
+.dropdown>li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 30px;
+  height: 60px;
+  user-select: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.dropdown>li>a{
+  
+  color: white;
+}
+.dropdown>li>a:hover{
+  
+  color: black;
+}
+.dropdown>li:hover{
+  color: black;
+  background-color: white;
+}
 .nav-item>li {
     
   text-align: center;
@@ -34,10 +82,22 @@ nav{
   height: 60px;
   font-weight: bold;
   font-size: 1.2rem;
+  user-select: none;
 }
 .nav-item>li>a{
   
     color: white;
+}
+.toggle_btn{
+  display: none;
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  top: 20%;
+  left: 10%;
+  
 }
 .nav-item>li>a:hover{
   
@@ -50,18 +110,14 @@ nav{
 
 @media only screen and (max-width: 950px ){
   .nav-item>li{
-   
-  font-size: 0.8rem;
+   display: none;
   }
-  .nav-item>li>a{
-    font-size: 0.8rem;
+  .toggle_btn{
+    display: block;
   }
 }
-@media only screen and (max-width: 500px ){
-  .nav-item>li{
-    font-size: 0.6rem
-  }
-  .nav-item>li>a{
-    font-size: 0.6rem;
+@media only screen and (min-width: 950px ){
+  .dropdown{
+    visibility: hidden;
   }
 }
