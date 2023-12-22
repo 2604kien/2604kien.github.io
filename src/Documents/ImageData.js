@@ -50,7 +50,7 @@ export const imageData=[{
     duration: "",
     link: "https://github.com/2604kien/2604kien.github.io"},
     {
-        name: "A Racing Game Simulator",
+        name: "Racing Game Simulator",
         src: [racing1, racing2, racing3, racing4, racing5, racing6],
         description: "Using Full Stack React-NestJS, this project emulates the experience of an F1 racing game. It features proper gameplay selection, progression data, and a leaderboard to record and display race history.",
         skill: "ReactJS, Redux, NestJS, GSAP, CSS, Git Control",
