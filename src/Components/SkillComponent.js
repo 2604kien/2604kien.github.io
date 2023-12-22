@@ -1,7 +1,7 @@
 import React from "react";
 import {motion, useAnimation, useInView} from "framer-motion"
 import "./css/SkillComponent.css"
-export default function SkillComponents({name, image, proficiency, bc}){
+export default function SkillComponents({name, proficiency}){
     let pro=React.useRef(null);
     let isInView=useInView(pro, {once: false});
     const control=useAnimation();
@@ -24,7 +24,7 @@ export default function SkillComponents({name, image, proficiency, bc}){
                 initial="hidden"
                 animate={control}
                 transition={{type:"tween", duration: 1, ease: "easeInOut"}}
-                     ref={pro} className="proficiency" style={{backgroundColor: bc, boxShadow: "0px 0px 5px 1px "+bc}}></motion.div>
+                     ref={pro} className="proficiency" style={{backgroundColor: "black"}}></motion.div>
                 </div>  
             </div>
         </div>

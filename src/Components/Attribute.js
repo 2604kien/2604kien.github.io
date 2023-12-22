@@ -3,15 +3,12 @@ import {motion, useAnimation, useInView} from "framer-motion"
 import "./css/Skills.css";
 import { attribute } from "../Documents/SkillsData";
 import SkillComponents from "./SkillComponent";
-export default function Attribute(props){
+export default function Attribute(){
     let attribute1=React.useRef(null);
     let isInView=useInView(attribute1, {once: true});
     const controlView=useAnimation();
-    const [backColor, setBackColor]=React.useState("rgba(29, 29, 29, 0.856)");
-    const skillElements=attribute.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc={props.bc}/>)
-    function handleChange(color){
-        setBackColor(color);
-    }
+    const skillElements=attribute.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency}/>)
+
     React.useEffect(()=>{
         if(isInView) controlView.start("visible");
     },[isInView, controlView])
@@ -26,7 +23,7 @@ export default function Attribute(props){
                 transition={{type:"spring", duration: 1.5}} 
                 ref={attribute1}
                 className="programming">
-                <div className="title" onMouseOver={()=>handleChange("rgba(255, 204, 0, 0.8)")} onMouseLeave={()=>handleChange("rgba(29, 29, 29, 0.856)")} style={{backgroundColor:backColor}}>Attribute</div>
+                <div className="title" >Attribute</div>
                     {skillElements}
                     
                 </motion.div>

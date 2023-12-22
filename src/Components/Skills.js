@@ -11,7 +11,7 @@ export default function Skills(){
     let isInView=useInView(programming, { once: true });
     const controlView=useAnimation();
     let title=React.useRef(null);
-    const skillElements=skills.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} bc="#2187e7" inview={isInView} />)
+    const skillElements=skills.map((a,i)=><SkillComponents key={i} name={a.name} image={a.image} proficiency={a.proficiency} inview={isInView} />)
     const imageDisplay=skills.map((a,i)=><motion.img key={i} whileHover={{scale: 1.3, filter: "brightness(1.3)"}} src={a.image} style={{width: "50px", height:"50px"}}/>)
 
     React.useEffect(()=>{
@@ -35,7 +35,7 @@ export default function Skills(){
         <div id="skills" className="skills-container">
             <h1 ref={el=>{title=el}} style={{fontWeight: "bold", overflow: "hidden"}}>ABOUT ME</h1>
             <div className="skills">
-            <Attribute bc="rgba(255, 204, 0, 0.8)"/>
+            <Attribute />
                 <motion.div 
                 variants={{
                     hidden: {opacity: 0, x: -100},
@@ -45,13 +45,13 @@ export default function Skills(){
             animate={controlView}
             transition={{type:"spring", duration: 1.5}}
                 ref={programming} className="programming">
-                    <div className="title">Web SKILLs</div>
+                    <div className="title">Technology</div>
                     {skillElements}
                     <div width="100%" style={{display: "flex", justifyContent: "space-around", alignItems:"center", margin: "10px"}}>
                         {imageDisplay}
                     </div>
             </motion.div>
-            <Others bc="rgba(0, 165, 114, 0.8)"/>
+            <Others />
             </div>
         </div>
     )
