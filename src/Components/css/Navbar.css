@@ -40,7 +40,7 @@ nav{
   padding: 0;
   z-index: 100;
   overflow: hidden;
-  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .open{
   height: 300px;
@@ -56,7 +56,7 @@ nav{
   height: 60px;
   user-select: none;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .dropdown>li>a{
   
@@ -81,7 +81,7 @@ nav{
   width: 10vw;
   height: 60px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   user-select: none;
 }
 .nav-item>li>a{
