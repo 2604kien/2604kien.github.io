@@ -43,7 +43,7 @@ export default function Navbar(){
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#project")}}> Project </li>          
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#skills")}}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); window.location.replace("#education")}}> Education </li>
-                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contacts </li>
+                <li onClick={(e)=>{e.preventDefault(); window.location.replace("#contact")}}> Contact </li>
                 <li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
             </ul>
             
