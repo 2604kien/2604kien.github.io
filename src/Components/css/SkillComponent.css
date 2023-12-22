@@ -1,18 +1,13 @@
 .proCon{
     width: 300px;
     height: 20px;
-    background-color: rgba(175, 164, 164, 0.473);
+    background-color: white;
+    border: 1px solid black;
     padding-bottom: 0px;
 
-    opacity: 0.8;
+    opacity: 1;
 }
 .proficiency{
     height: 100%;
-    filter: brightness(1.4);
-    box-shadow: 0px 0px 5px 1px #2187e7;
 
-}
-.proCon:hover{
-    filter: brightness(3);
-    transition: filter 0.5s ease 0s;
 }
