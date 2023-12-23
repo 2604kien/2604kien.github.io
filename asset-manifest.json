@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c4f1bca.css",
+    "main.css": "/static/css/main.2145ab8d.css",
     "main.js": "/static/js/main.fd087073.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
@@ -47,12 +47,12 @@
     "index.html": "/index.html",
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
-    "main.4c4f1bca.css.map": "/static/css/main.4c4f1bca.css.map",
+    "main.2145ab8d.css.map": "/static/css/main.2145ab8d.css.map",
     "main.fd087073.js.map": "/static/js/main.fd087073.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c4f1bca.css",
+    "static/css/main.2145ab8d.css",
     "static/js/main.fd087073.js"
   ]
 }
