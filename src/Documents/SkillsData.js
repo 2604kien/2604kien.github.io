@@ -39,7 +39,7 @@ export const skills=[{
 ]
 export const attribute=[{
     name: "Design",
-    proficiency: 75
+    proficiency: 90
 },{
     name:"Creativity",
     proficiency: 80
