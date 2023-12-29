@@ -34,9 +34,6 @@ export default function ProjectContent(props){
             <div className="wrapper">
                 <div className="cover-image" style={{backgroundImage:`url(${props.src[currIMG]})`}}></div>
             </div>
-            {/* <div className="clickToKnow" >
-                <h2 style={{color: props.id===3? "white":"black",display: "flex", justifyContent:"center", flexDirection: "row", width: "100%",textDecoration:"underline", marginTop:"-100px"}}>Click To Know More</h2>
-            </div> */}
             <div className="projectName" style={{fontSize: "bold", display: "flex", alignItems:"center", justifyContent:"left", flexDirection: "row", width: "100%"}}>
                 <h2 style={{color: "#333", opacity: 0.3, fontSize: "40px"}}>0{props.id+1}</h2>
                 <h2 style={{color: "black",marginLeft:"15px"}}>{props.name}</h2>

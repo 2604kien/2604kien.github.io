@@ -28,6 +28,15 @@ import poll1 from "../Components/Images/employeePoll1.png"
 import poll2 from "../Components/Images/employeePoll2.png"
 import poll3 from "../Components/Images/employeePoll3.png"
 import poll4 from "../Components/Images/employeePoll4.png"
+import Coffee1 from "../Components/Images/Coffee1.png"
+import Coffee2 from "../Components/Images/Coffee2.png"
+import Coffee3 from "../Components/Images/Coffee3.png"
+import Coffee4 from "../Components/Images/Coffee4.png"
+import Coffee5 from "../Components/Images/Coffee5.png"
+import Coffee6 from "../Components/Images/Coffee6.png"
+import Coffee7 from "../Components/Images/Coffee7.png"
+import Coffee8 from "../Components/Images/Coffee8.png"
+import Coffee9 from "../Components/Images/Coffee9.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
@@ -42,6 +51,13 @@ export const imageData=[{
     skill: "PHP, HTML, CSS, Javascript, Git Control",
     duration: "",
     link: "#"
+},{
+    name: "HIASE Coffee Shop",
+    src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee6, Coffee7, Coffee8, Coffee9],
+    description: "This is a full-stack project for a coffee shop that enables visitors to book, registered members to access diverse coffee recipes, and admin users to manage data effortlessly. The project ensures robust authentication and authorization, utilizing JWT access and refresh tokens for a seamless user experience, eliminating the need for frequent login actions.",
+    skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git Control",
+    duration: "",
+    link: "https://github.com/2604kien/coffee-shop"
 },{
     name: "Website Porfolio",
     src: [profile],
