@@ -71,7 +71,14 @@ export const imageData=[{
         description: "Using Full Stack React-NestJS, this project emulates the experience of an F1 racing game. It features proper gameplay selection, progression data, and a leaderboard to record and display race history.",
         skill: "ReactJS, Redux, NestJS, GSAP, CSS, Git Control",
         duration: "",
-        link: "https://github.com/2604kien/racer-simulator"},
+        link: "https://github.com/2604kien/racer-simulator"},{
+            name: "Meme Generator",
+            src: [meme, meme1],
+            description: "The primary objective of this project is to refine skills in fetching data from APIs and incorporating external libraries in React, providing practical hands-on experience in these key areas.",
+            skill: "ReactJs, CSS, Javascript, Git Control",
+            duration: "",
+            link: "https://github.com/2604kien/better-meme-generator"
+        },
         {
         name: "Employee Poll",
         src: [poll1, poll2, poll3, poll4],
@@ -86,13 +93,6 @@ export const imageData=[{
     skill: "Java, OOP, Git Control",
     duration: "",
     link: "https://github.com/2604kien/9ManMorris"
-},{
-    name: "Meme Generator",
-    src: [meme, meme1],
-    description: "The primary objective of this project is to refine skills in fetching data from APIs and incorporating external libraries in React, providing practical hands-on experience in these key areas.",
-    skill: "ReactJs, CSS, Javascript, Git Control",
-    duration: "",
-    link: "https://github.com/2604kien/better-meme-generator"
 },{
     name: "Quiz Generator",
     src: [quiz1, quiz],
