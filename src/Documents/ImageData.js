@@ -79,34 +79,35 @@ export const imageData=[{
             duration: "",
             link: "https://github.com/2604kien/better-meme-generator"
         },
-        {
-        name: "Employee Poll",
-        src: [poll1, poll2, poll3, poll4],
-        description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
-        skill: "ReactJS, Redux, CSS, Git Control",
-        duration: "",
-         link: "https://github.com/2604kien/employee-poll"},
-    {
-    name: "Nine Man Moris Game",
-    src: [nineman, nineman1],
-    description: "The aim of this project is to get a better understanding of Object Oriented Programming.",
-    skill: "Java, OOP, Git Control",
-    duration: "",
-    link: "https://github.com/2604kien/9ManMorris"
-},{
-    name: "Quiz Generator",
-    src: [quiz1, quiz],
-    description: "This project serves as a practice ground for fetching and managing data from APIs, including the implementation of a randomized display of fetched data, particularly useful in scenarios such as quiz answers.",
-    skill: "ReactJs, CSS, Javascript, Git Control",
-    duration: "",
-    link: "https://github.com/2604kien/react_quiz"
-},
-{
-    name: "Js Fighting Game",
-    src: [fighting, fighting1, fighting2, fighting3],
-    description: "Combining JavaScript skills with Object Oriented Programming principles, this project endeavors to create a local two-player fighting game. The interactive gameplay is controlled through the players' keyboards, showcasing the integration of programming concepts into a gaming application.",
-    skill: "Javascript, HTML, CSS, Git Control",
-    duration: "",
-    link: "https://github.com/2604kien/JsFighting"
-}]
+//         {
+//         name: "Employee Poll",
+//         src: [poll1, poll2, poll3, poll4],
+//         description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
+//         skill: "ReactJS, Redux, CSS, Git Control",
+//         duration: "",
+//          link: "https://github.com/2604kien/employee-poll"},
+//     {
+//     name: "Nine Man Moris Game",
+//     src: [nineman, nineman1],
+//     description: "The aim of this project is to get a better understanding of Object Oriented Programming.",
+//     skill: "Java, OOP, Git Control",
+//     duration: "",
+//     link: "https://github.com/2604kien/9ManMorris"
+// },{
+//     name: "Quiz Generator",
+//     src: [quiz1, quiz],
+//     description: "This project serves as a practice ground for fetching and managing data from APIs, including the implementation of a randomized display of fetched data, particularly useful in scenarios such as quiz answers.",
+//     skill: "ReactJs, CSS, Javascript, Git Control",
+//     duration: "",
+//     link: "https://github.com/2604kien/react_quiz"
+// },
+// {
+//     name: "Js Fighting Game",
+//     src: [fighting, fighting1, fighting2, fighting3],
+//     description: "Combining JavaScript skills with Object Oriented Programming principles, this project endeavors to create a local two-player fighting game. The interactive gameplay is controlled through the players' keyboards, showcasing the integration of programming concepts into a gaming application.",
+//     skill: "Javascript, HTML, CSS, Git Control",
+//     duration: "",
+//     link: "https://github.com/2604kien/JsFighting"
+// }
+]
 

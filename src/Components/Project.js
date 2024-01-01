@@ -25,13 +25,22 @@ export default function Project(){
     const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
         <>
-            <div id="project" className="project" style={{height:"100vh", overflow:"hidden"}}>
+            <div id="project" className="project">
                 <h1 ref={el=>{title=el}} style={{fontWeight: "bold", marginBottom: "70px"}}>PROJECTS</h1>
                 <div className="g-container">
                     {projectElement}
                 </div>
             </div>
-            <div style={{backgroundColor:"whitesmoke", width:"100%", textAlign:"center"}}> <h2 onClick={()=>{window.location.href="https://github.com/2604kien"}} style={{textDecoration:"underline", cursor:"pointer" }}>Click for more!!!</h2></div>
+            
+            <div style={{
+                display:"flex",
+                justifyContent:"center",
+                backgroundColor:"whitesmoke",
+                width:"100%",
+                textAlign:"center",
+                paddingBottom:"5%"}}>
+                <h2 onClick={()=>{window.location.href="https://github.com/2604kien"}} style={{textDecoration:"underline", cursor:"pointer", width:"fit-content"}}>Click for more!!!</h2>
+            </div>
            
         </>
     )
