@@ -41,41 +41,41 @@ export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
     description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
-    skill: "PHP, HTML, CSS, Javascript, Git Control",
+    skill: "PHP, HTML, CSS, Javascript, Git",
     duration: "Feb 2023 - Jun 2023",
     link: "https://advicecyborg.com.au/"
 },{
     name: "Yoga Learning Centre",
     src: [yoga, yoga1, yoga2, yoga3],
     description: "This is a project I worked on with a team to create a yoga learning platform designed for both students seeking to learn and teachers delivering yoga content, enhancing accessibility and engagement.",
-    skill: "PHP, HTML, CSS, Javascript, Git Control",
+    skill: "PHP, HTML, CSS, Javascript, Git",
     duration: "",
     link: "#"
 },{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee6, Coffee7, Coffee8, Coffee9],
     description: "This is a full-stack project for a coffee shop that enables visitors to book, registered members to access diverse coffee recipes, and admin users to manage data effortlessly. The project ensures robust authentication and authorization, utilizing JWT access and refresh tokens for a seamless user experience, eliminating the need for frequent login actions.",
-    skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git Control",
+    skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
     duration: "",
     link: "https://github.com/2604kien/coffee-shop"
 },{
     name: "Website Porfolio",
     src: [profile],
     description: "This project is dedicated to building a comprehensive portfolio website showcasing my skills as a developer, aimed at effectively communicating my expertise and capabilities.",
-    skill: "ReactJS, Redux, GSAP, Figma, Design, CSS, Git Control",
+    skill: "ReactJS, Redux, GSAP, Figma, Design, CSS, Git",
     duration: "",
     link: "https://github.com/2604kien/2604kien.github.io"},
     {
         name: "Racing Game Simulator",
         src: [racing1, racing2, racing3, racing4, racing5, racing6],
         description: "Using Full Stack React-NestJS, this project emulates the experience of an F1 racing game. It features proper gameplay selection, progression data, and a leaderboard to record and display race history.",
-        skill: "ReactJS, Redux, NestJS, GSAP, CSS, Git Control",
+        skill: "ReactJS, Redux, NestJS, GSAP, CSS, Git",
         duration: "",
         link: "https://github.com/2604kien/racer-simulator"},{
             name: "Meme Generator",
             src: [meme, meme1],
             description: "The primary objective of this project is to refine skills in fetching data from APIs and incorporating external libraries in React, providing practical hands-on experience in these key areas.",
-            skill: "ReactJs, CSS, Javascript, Git Control",
+            skill: "ReactJs, CSS, Javascript, Git",
             duration: "",
             link: "https://github.com/2604kien/better-meme-generator"
         },
@@ -83,21 +83,21 @@ export const imageData=[{
 //         name: "Employee Poll",
 //         src: [poll1, poll2, poll3, poll4],
 //         description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
-//         skill: "ReactJS, Redux, CSS, Git Control",
+//         skill: "ReactJS, Redux, CSS, Git",
 //         duration: "",
 //          link: "https://github.com/2604kien/employee-poll"},
 //     {
 //     name: "Nine Man Moris Game",
 //     src: [nineman, nineman1],
 //     description: "The aim of this project is to get a better understanding of Object Oriented Programming.",
-//     skill: "Java, OOP, Git Control",
+//     skill: "Java, OOP, Git",
 //     duration: "",
 //     link: "https://github.com/2604kien/9ManMorris"
 // },{
 //     name: "Quiz Generator",
 //     src: [quiz1, quiz],
 //     description: "This project serves as a practice ground for fetching and managing data from APIs, including the implementation of a randomized display of fetched data, particularly useful in scenarios such as quiz answers.",
-//     skill: "ReactJs, CSS, Javascript, Git Control",
+//     skill: "ReactJs, CSS, Javascript, Git",
 //     duration: "",
 //     link: "https://github.com/2604kien/react_quiz"
 // },
@@ -105,7 +105,7 @@ export const imageData=[{
 //     name: "Js Fighting Game",
 //     src: [fighting, fighting1, fighting2, fighting3],
 //     description: "Combining JavaScript skills with Object Oriented Programming principles, this project endeavors to create a local two-player fighting game. The interactive gameplay is controlled through the players' keyboards, showcasing the integration of programming concepts into a gaming application.",
-//     skill: "Javascript, HTML, CSS, Git Control",
+//     skill: "Javascript, HTML, CSS, Git",
 //     duration: "",
 //     link: "https://github.com/2604kien/JsFighting"
 // }
