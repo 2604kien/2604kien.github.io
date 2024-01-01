@@ -41,14 +41,14 @@ export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
     description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
-    skill: "PHP, HTML, CSS, Javascript, Git",
+    skill: "PHP, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
     link: "https://advicecyborg.com.au/"
 },{
     name: "Yoga Learning Centre",
     src: [yoga, yoga1, yoga2, yoga3],
     description: "This is a project I worked on with a team to create a yoga learning platform designed for both students seeking to learn and teachers delivering yoga content, enhancing accessibility and engagement.",
-    skill: "PHP, HTML, CSS, Javascript, Git",
+    skill: "PHP, HTML, CSS, Javascript, MySQL Git",
     duration: "",
     link: "#"
 },{
