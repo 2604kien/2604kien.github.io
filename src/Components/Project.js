@@ -39,7 +39,12 @@ export default function Project(){
                 width:"100%",
                 textAlign:"center",
                 paddingBottom:"5%"}}>
-                <h2 onClick={()=>{window.location.href="https://github.com/2604kien"}} style={{textDecoration:"underline", cursor:"pointer", width:"fit-content"}}>Click for more!!!</h2>
+                <h2 onClick={()=>{window.location.href="https://github.com/2604kien"}} style={{
+                        textDecoration:"underline",
+                        cursor:"pointer",
+                        width:"fit-content",
+                        color:"rgba(47,102,154,0.8)"
+                    }}>Click for more!!!</h2>
             </div>
            
         </>

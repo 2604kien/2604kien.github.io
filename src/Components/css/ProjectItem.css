@@ -60,7 +60,7 @@
   height: 120px;
 }
 
-.character {
+.projectContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,10 +71,11 @@
   z-index: -1;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 300px;
+  min-height: 300px;
+  height: fit-content;
 }
 
-.projectItem:hover .character {
+.projectItem:hover .projectContent {
   opacity: 1;
   transform: translate3d(0%, -25%, 0px);
 }
