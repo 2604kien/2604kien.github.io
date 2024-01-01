@@ -48,7 +48,7 @@ export const imageData=[{
     name: "Yoga Learning Centre",
     src: [yoga, yoga1, yoga2, yoga3],
     description: "This is a project I worked on with a team to create a yoga learning platform designed for both students seeking to learn and teachers delivering yoga content, enhancing accessibility and engagement.",
-    skill: "PHP, HTML, CSS, Javascript, MySQL Git",
+    skill: "PHP, HTML, CSS, Javascript, MySQL, Git",
     duration: "",
     link: "#"
 },{
