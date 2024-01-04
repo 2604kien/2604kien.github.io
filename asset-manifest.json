@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85f6a86e.css",
-    "main.js": "/static/js/main.8c29394f.js",
+    "main.js": "/static/js/main.8667502d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/static/media/Coffee1.8322fe8a8b369529cd1b.png",
     "static/media/yogage.png": "/static/media/yogage.65e71a9f42328d8cc327.png",
@@ -16,8 +16,8 @@
     "static/media/racing2-5.png": "/static/media/racing2-5.6a17660c28175d85a8b0.png",
     "static/media/racing2.png": "/static/media/racing2.4396e0f6875aece990d8.png",
     "static/media/yogage1.png": "/static/media/yogage1.78b41ed775e746f87687.png",
+    "static/media/porfolio.png": "/static/media/porfolio.bea5b1be893c3953bfa8.png",
     "static/media/Coffee5.png": "/static/media/Coffee5.0be60cc896f16ca91492.png",
-    "static/media/porfolio.png": "/static/media/porfolio.09dad9e50e4cce6e2605.png",
     "static/media/meme.png": "/static/media/meme.48c6a100c86e4847a3d1.png",
     "static/media/advice4.png": "/static/media/advice4.967a71a3649bc2282e79.png",
     "static/media/racing3.png": "/static/media/racing3.18e93580caa9f4346c52.png",
@@ -45,11 +45,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.85f6a86e.css.map": "/static/css/main.85f6a86e.css.map",
-    "main.8c29394f.js.map": "/static/js/main.8c29394f.js.map",
+    "main.8667502d.js.map": "/static/js/main.8667502d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f6a86e.css",
-    "static/js/main.8c29394f.js"
+    "static/js/main.8667502d.js"
   ]
 }
