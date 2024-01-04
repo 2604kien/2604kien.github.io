@@ -41,20 +41,20 @@ export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
     description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
-    skill: "PHP, HTML, CSS, Javascript, MySQL, Git",
+    skill: "Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
-    link: "https://advicecyborg.com.au/"
+    link: "#"
 },{
     name: "Yoga Learning Centre",
     src: [yoga, yoga1, yoga2, yoga3],
     description: "This is a project I worked on with a team to create a yoga learning platform designed for both students seeking to learn and teachers delivering yoga content, enhancing accessibility and engagement.",
-    skill: "PHP, HTML, CSS, Javascript, MySQL, Git",
+    skill: "Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "",
     link: "#"
 },{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee6, Coffee7, Coffee8, Coffee9],
-    description: "This is a full-stack project for a coffee shop that enables visitors to book, registered members to access diverse coffee recipes, and admin users to manage data effortlessly. The project ensures robust authentication and authorization, utilizing JWT access and refresh tokens for a seamless user experience, eliminating the need for frequent login actions.",
+    description: "This is a full-stack project for a coffee shop that offers visitor booking, diverse recipes for members, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
     skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
     duration: "",
     link: "https://github.com/2604kien/coffee-shop"
