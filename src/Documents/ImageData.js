@@ -3,10 +3,7 @@ import advice1 from "../Components/Images/advice1.png"
 import advice2 from "../Components/Images/advice2.png"
 import advice3 from "../Components/Images/advice3.png"
 import advice4 from "../Components/Images/advice4.png"
-import yoga1 from "../Components/Images/yogage1.png"
-import yoga2 from "../Components/Images/yogage2.png"
-import yoga3 from "../Components/Images/yogage3.png"
-import yoga from "../Components/Images/yogage.png"
+
 // import fighting from "../Components/Images/jsFighting.png"
 // import fighting1 from "../Components/Images/jsFighting1.png"
 // import fighting2 from "../Components/Images/jsFighting2.png"
@@ -24,10 +21,10 @@ import racing3 from "../Components/Images/racing2-5.png"
 import racing4 from "../Components/Images/racing3.png"
 import racing5 from "../Components/Images/racing4.png"
 import racing6 from "../Components/Images/racing5.png"
-// import poll1 from "../Components/Images/employeePoll1.png"
-// import poll2 from "../Components/Images/employeePoll2.png"
-// import poll3 from "../Components/Images/employeePoll3.png"
-// import poll4 from "../Components/Images/employeePoll4.png"
+import poll1 from "../Components/Images/employeePoll1.png"
+import poll2 from "../Components/Images/employeePoll2.png"
+import poll3 from "../Components/Images/employeePoll3.png"
+import poll4 from "../Components/Images/employeePoll4.png"
 import Coffee1 from "../Components/Images/Coffee1.png"
 import Coffee2 from "../Components/Images/Coffee2.png"
 import Coffee3 from "../Components/Images/Coffee3.png"
@@ -41,15 +38,8 @@ export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
     description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
-    skill: "Express, HTML, CSS, Javascript, MySQL, Git",
+    skill: "React, Redux, Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
-    link: "#"
-},{
-    name: "Yoga Learning Centre",
-    src: [yoga, yoga1, yoga2, yoga3],
-    description: "This is a project I worked on with a team to create a yoga learning platform designed for both students seeking to learn and teachers delivering yoga content, enhancing accessibility and engagement.",
-    skill: "Express, HTML, CSS, Javascript, MySQL, Git",
-    duration: "",
     link: "#"
 },{
     name: "HIASE Coffee Shop",
@@ -79,13 +69,13 @@ export const imageData=[{
             duration: "",
             link: "https://github.com/2604kien/better-meme-generator"
         },
-//         {
-//         name: "Employee Poll",
-//         src: [poll1, poll2, poll3, poll4],
-//         description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
-//         skill: "ReactJS, Redux, CSS, Git",
-//         duration: "",
-//          link: "https://github.com/2604kien/employee-poll"},
+        {
+        name: "Employee Poll",
+        src: [poll1, poll2, poll3, poll4],
+        description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
+        skill: "ReactJS, Redux, CSS, Git",
+        duration: "",
+         link: "https://github.com/2604kien/employee-poll"},
 //     {
 //     name: "Nine Man Moris Game",
 //     src: [nineman, nineman1],
