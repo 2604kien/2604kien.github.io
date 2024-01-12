@@ -39,7 +39,7 @@ export const imageData=[{
     description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
     skill: "React, Redux, Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
-    link: "#"
+    link: "https://advicecyborg.com.au/"
 },{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee6, Coffee7, Coffee8, Coffee9],
