@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.85f6a86e.css",
-    "main.js": "/static/js/main.f055cd7d.js",
+    "main.js": "/static/js/main.d560f8cb.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/static/media/Coffee1.8322fe8a8b369529cd1b.png",
-    "static/media/Coffee7.png": "/static/media/Coffee7.305112644a95c25c719b.png",
-    "static/media/Coffee3.png": "/static/media/Coffee3.4c1ab849bc7c56e69143.png",
-    "static/media/Coffee6.png": "/static/media/Coffee6.7e274a91fdbc88c01509.png",
-    "static/media/Coffee4.png": "/static/media/Coffee4.5001b9beaff451e2b483.png",
-    "static/media/Coffee8.png": "/static/media/Coffee8.fa446c781d04fad7d48e.png",
+    "static/media/Coffee3.png": "/static/media/Coffee3.793aba8a86697ed464af.png",
+    "static/media/Coffee7.png": "/static/media/Coffee7.5ddc49b9134608701973.png",
+    "static/media/Coffee6.png": "/static/media/Coffee6.c0114acdd6132ce63708.png",
+    "static/media/Coffee4.png": "/static/media/Coffee4.6e555bb8b28250105931.png",
     "static/media/Coffee2.png": "/static/media/Coffee2.95883ba29c675aae2f5d.png",
-    "static/media/Coffee9.png": "/static/media/Coffee9.fc167ba99aba44567f54.png",
+    "static/media/Coffee9.png": "/static/media/Coffee9.740d2a4c57b344494dc1.png",
+    "static/media/Coffee8.png": "/static/media/Coffee8.808955fe29352bdf5b1c.png",
     "static/media/racing1.png": "/static/media/racing1.d7093a8158b8954ae7d2.png",
     "static/media/racing2-5.png": "/static/media/racing2-5.6a17660c28175d85a8b0.png",
     "static/media/racing2.png": "/static/media/racing2.4396e0f6875aece990d8.png",
+    "static/media/Coffee5.png": "/static/media/Coffee5.b34625944439dd858f5c.png",
     "static/media/porfolio.png": "/static/media/porfolio.bea5b1be893c3953bfa8.png",
-    "static/media/Coffee5.png": "/static/media/Coffee5.0be60cc896f16ca91492.png",
     "static/media/meme.png": "/static/media/meme.48c6a100c86e4847a3d1.png",
     "static/media/advice4.png": "/static/media/advice4.967a71a3649bc2282e79.png",
     "static/media/racing3.png": "/static/media/racing3.18e93580caa9f4346c52.png",
@@ -45,11 +45,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.85f6a86e.css.map": "/static/css/main.85f6a86e.css.map",
-    "main.f055cd7d.js.map": "/static/js/main.f055cd7d.js.map",
+    "main.d560f8cb.js.map": "/static/js/main.d560f8cb.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f6a86e.css",
-    "static/js/main.f055cd7d.js"
+    "static/js/main.d560f8cb.js"
   ]
 }
