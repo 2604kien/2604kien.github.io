@@ -3,10 +3,8 @@ import "./css/Project.css"
 import { imageData } from "../Documents/ImageData";
 import ProjectContent from "./ProjectContent";
 import gsap from "gsap";
-import { useNavigate } from "react-router-dom";
 import { ScrollTrigger } from "gsap/all";
-export default function Project(){
-    const navigate=useNavigate();
+export default function AllProjectDisplay(){
     let title=React.useRef(null);
     gsap.registerPlugin(ScrollTrigger);
     React.useEffect(()=>{
@@ -24,10 +22,7 @@ export default function Project(){
         });
         return ()=>{ctx.revert()}
     },[]);
-    const projectElement=imageData.map((data, i)=>{
-        if(i<=5) return<ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>
-        else return <></>;
-})
+    const projectElement=imageData.map((data, i)=><ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>)
     return(
         <>
             <div id="project" className="project">
@@ -36,22 +31,6 @@ export default function Project(){
                     {projectElement}
                 </div>
             </div>
-            
-            <div style={{
-                display:"flex",
-                justifyContent:"center",
-                backgroundColor:"whitesmoke",
-                width:"100%",
-                textAlign:"center",
-                paddingBottom:"5%"}}>
-                <h2 onClick={()=>{navigate('/all-projects')}} style={{
-                        textDecoration:"underline",
-                        cursor:"pointer",
-                        width:"fit-content",
-                        color:"rgba(47,102,154,0.8)"
-                    }}>Click for more!!!</h2>
-            </div>
-           
-        </>
+</>
     )
 }
