@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 import {data} from "../Documents/SignatureSVG";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import "./css/Navbar.css"
 import 'bootstrap/dist/css/bootstrap.css';
 const transition={duration: 3, yoyo: Infinity, ease: "easeInOut"};
@@ -10,11 +10,11 @@ export default function Navbar(){
     const navigate=useNavigate();
     const [dropDown, setDropDown]= React.useState(false);
     const {pathname}=useLocation();
-    console.log(pathname);
     const toggle=()=>{
         setDropDown(prev=> !prev);
     }
     return (
+        <>
         <nav>
             <div onClick={toggle} className="toggle_btn" >
                 <i className="fa-solid fa-bars"></i>
@@ -52,5 +52,7 @@ export default function Navbar(){
             </ul>
             
         </nav>
+        <Outlet/>
+        </>
     )
 }

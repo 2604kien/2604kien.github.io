@@ -18,8 +18,9 @@ function App() {
     
     <div className="App">
     {isClicked&&<ProjectDisplay/>}
-    <Navbar />
+
     <Routes>
+      <Route path='*' element={<Navbar/>}>
       <Route path='' element={
         <>
         <Header />
@@ -29,10 +30,9 @@ function App() {
         <Contact/>
         </>
       }/>
+        <Route path='*' element={<Error404/>}/>
+      </Route>
       <Route path='all-projects' element={<AllProjectDisplay/>}/>
-      <Route path='*' element={
-        <Error404/>
-      }/>
     </Routes>    
     </div>
   );
