@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.85f6a86e.css",
-    "main.js": "/static/js/main.ac9b5f95.js",
+    "main.js": "/static/js/main.13a3f9c2.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/static/media/Coffee1.8322fe8a8b369529cd1b.png",
     "static/media/Coffee3.png": "/static/media/Coffee3.793aba8a86697ed464af.png",
     "static/media/Coffee7.png": "/static/media/Coffee7.5ddc49b9134608701973.png",
     "static/media/Coffee6.png": "/static/media/Coffee6.c0114acdd6132ce63708.png",
+    "static/media/Coffee5.5.png": "/static/media/Coffee5.5.2365db144f49ea5169ca.png",
     "static/media/Coffee4.png": "/static/media/Coffee4.6e555bb8b28250105931.png",
     "static/media/Coffee2.png": "/static/media/Coffee2.95883ba29c675aae2f5d.png",
     "static/media/Coffee9.png": "/static/media/Coffee9.740d2a4c57b344494dc1.png",
@@ -51,11 +52,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.85f6a86e.css.map": "/static/css/main.85f6a86e.css.map",
-    "main.ac9b5f95.js.map": "/static/js/main.ac9b5f95.js.map",
+    "main.13a3f9c2.js.map": "/static/js/main.13a3f9c2.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f6a86e.css",
-    "static/js/main.ac9b5f95.js"
+    "static/js/main.13a3f9c2.js"
   ]
 }
