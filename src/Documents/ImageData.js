@@ -29,6 +29,7 @@ import Coffee2 from "../Components/Images/Coffee2.png"
 import Coffee3 from "../Components/Images/Coffee3.png"
 import Coffee4 from "../Components/Images/Coffee4.png"
 import Coffee5 from "../Components/Images/Coffee5.png"
+import Coffee5h from "../Components/Images/Coffee5.5.png"
 import Coffee6 from "../Components/Images/Coffee6.png"
 import Coffee7 from "../Components/Images/Coffee7.png"
 import Coffee8 from "../Components/Images/Coffee8.png"
@@ -42,11 +43,11 @@ export const imageData=[{
     link: "https://advicecyborg.com.au/"
 },{
     name: "HIASE Coffee Shop",
-    src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee6, Coffee7, Coffee8, Coffee9],
+    src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
     description: "This is a full-stack project for a coffee shop that offers visitor booking, diverse recipes for members, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
     skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
     duration: "",
-    link: "https://hiase.onrender.com/"
+    link: "https://www.hiase.cafe/"
 },{
     name: "Website Porfolio",
     src: [profile],
