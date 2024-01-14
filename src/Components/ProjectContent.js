@@ -35,7 +35,7 @@ export default function ProjectContent(props){
                 <div className="cover-image" style={{backgroundImage:`url(${props.src[currIMG]})`}}></div>
             </div>
             <div className="projectName" style={{fontSize: "bold", display: "flex", alignItems:"center", justifyContent:"left", flexDirection: "row", width: "100%"}}>
-                <h2 style={{color: "#333", opacity: 0.3, fontSize: "40px"}}>0{props.id+1}</h2>
+                <h2 style={{color: "#333", opacity: 0.3, fontSize: "40px"}}>{ props.id+1<10?"0"+(props.id+1): props.id+1}</h2>
                 <h2 style={{color: "black",marginLeft:"15px"}}>{props.name}</h2>
             </div>    
             <div className="projectContent">
