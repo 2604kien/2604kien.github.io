@@ -52,21 +52,21 @@ import Coffee9 from "../Components/Images/Coffee9.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
-    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
+    description: "Advice Cyborg is an automated online platform that provides tailored financial advice to individuals facing various financial situations",
     skill: "React, Redux, Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
     link: "https://advicecyborg.com.au/"
 },{
     name: "PTE Master",
     src: [pte1, pte2, pte3],
-    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online learning system that integrated AI technology, providing students with a comprehensive platform for improving their English skill in preparation for their PTE test.",
+    description: "PTE Master an automated online learning system that integrated AI technology, providing students with a comprehensive platform for improving their English skill in preparation for their PTE test.",
     skill: "React, Redux, NestJS, HTML, CSS, Typescript, PostgreSQL, Git",
     duration: "Jan 2023 - Present",
     link: "https://www.masterpte.com.au/"
 },{
     name: "Compare Save",
     src: [compare1, compare2, compare3, compare4, compare5],
-    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online platform that allows users to compare 100s of home loans and investment loans from Australia's most trusted lenders.",
+    description: "Compare Save is an online platform that allows users to compare 100s of home loans and investment loans from Australia's most trusted lenders.",
     skill: "ReactJS, Headless CMS (Storyblok), GraphQL, HTML, CSS, Typescript, PostgreSQL, Git",
     duration: "Jan 2023 - Present",
     link: "https://comparensave.com.au"
