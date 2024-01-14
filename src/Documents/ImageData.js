@@ -4,14 +4,27 @@ import advice2 from "../Components/Images/advice2.png"
 import advice3 from "../Components/Images/advice3.png"
 import advice4 from "../Components/Images/advice4.png"
 
+import pte1 from "../Components/Images/pte1.png"
+import pte2 from "../Components/Images/pte2.png"
+import pte3 from "../Components/Images/pte3.png"
+
+import compare1 from "../Components/Images/compare1.png"
+import compare2 from "../Components/Images/compare2.png"
+import compare3 from "../Components/Images/compare3.png"
+import compare4 from "../Components/Images/compare4.png"
+import compare5 from "../Components/Images/compare5.png"
+
 import fighting from "../Components/Images/jsFighting.png"
 import fighting1 from "../Components/Images/jsFighting1.png"
 import fighting2 from "../Components/Images/jsFighting2.png"
 import fighting3 from "../Components/Images/jsFighting3.png"
+
 import meme from "../Components/Images/meme.png"
 import meme1 from "../Components/Images/meme1.png"
+
 import quiz from "../Components/Images/quiz.png"
 import quiz1 from "../Components/Images/quiz1.png"
+
 import profile from "../Components/Images/porfolio.png"
 
 import racing1 from "../Components/Images/racing1.png"
@@ -20,10 +33,12 @@ import racing3 from "../Components/Images/racing2-5.png"
 import racing4 from "../Components/Images/racing3.png"
 import racing5 from "../Components/Images/racing4.png"
 import racing6 from "../Components/Images/racing5.png"
+
 import poll1 from "../Components/Images/employeePoll1.png"
 import poll2 from "../Components/Images/employeePoll2.png"
 import poll3 from "../Components/Images/employeePoll3.png"
 import poll4 from "../Components/Images/employeePoll4.png"
+
 import Coffee1 from "../Components/Images/Coffee1.png"
 import Coffee2 from "../Components/Images/Coffee2.png"
 import Coffee3 from "../Components/Images/Coffee3.png"
@@ -37,10 +52,24 @@ import Coffee9 from "../Components/Images/Coffee9.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
-    description: "In this project, I worked on a team and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
+    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online platform that provides tailored financial advice to individuals facing various financial situations",
     skill: "React, Redux, Express, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
     link: "https://advicecyborg.com.au/"
+},{
+    name: "PTE Master",
+    src: [pte1, pte2, pte3],
+    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online learning system that integrated AI technology, providing students with a comprehensive platform for improving their English skill in preparation for their PTE test.",
+    skill: "React, Redux, NestJS, HTML, CSS, Typescript, PostgreSQL, Git",
+    duration: "Jan 2023 - Present",
+    link: "https://www.masterpte.com.au/"
+},{
+    name: "Compare Save",
+    src: [compare1, compare2, compare3, compare4, compare5],
+    description: "In this project, I worked on a team of 5 people and contributed to the development of an automated online platform that allows users to compare 100s of home loans and investment loans from Australia's most trusted lenders.",
+    skill: "ReactJS, Headless CMS (Storyblok), GraphQL, HTML, CSS, Typescript, PostgreSQL, Git",
+    duration: "Jan 2023 - Present",
+    link: "https://comparensave.com.au"
 },{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
