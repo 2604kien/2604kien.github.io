@@ -32,7 +32,7 @@ export default function ProjectContent(props){
     return (
         <div className="projectItem" onClick={handleClick}>
             <div className="wrapper">
-                <div className="cover-image" style={{backgroundImage:`url(${props.src[currIMG]})`}}></div>
+                <div className="cover-image" style={{backgroundImage:`url(${props.src[currIMG]})`, backgroundPosition:"center"}}></div>
             </div>
             <div className="projectName" style={{fontSize: "bold", display: "flex", alignItems:"center", justifyContent:"left", flexDirection: "row", width: "100%"}}>
                 <h2 style={{color: "#333", opacity: 0.3, fontSize: "40px"}}>{ props.id+1<10?"0"+(props.id+1): props.id+1}</h2>
