@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85f6a86e.css",
-    "main.js": "/static/js/main.13a3f9c2.js",
+    "main.js": "/static/js/main.fb7cf8a6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/static/media/Coffee1.8322fe8a8b369529cd1b.png",
     "static/media/Coffee3.png": "/static/media/Coffee3.793aba8a86697ed464af.png",
@@ -13,11 +13,16 @@
     "static/media/Coffee9.png": "/static/media/Coffee9.740d2a4c57b344494dc1.png",
     "static/media/Coffee8.png": "/static/media/Coffee8.808955fe29352bdf5b1c.png",
     "static/media/racing1.png": "/static/media/racing1.d7093a8158b8954ae7d2.png",
+    "static/media/pte1.png": "/static/media/pte1.5a219cd6cd08fadeecc9.png",
     "static/media/racing2-5.png": "/static/media/racing2-5.6a17660c28175d85a8b0.png",
     "static/media/racing2.png": "/static/media/racing2.4396e0f6875aece990d8.png",
+    "static/media/compare1.png": "/static/media/compare1.ef9f3b4c15071ed20563.png",
+    "static/media/compare5.png": "/static/media/compare5.56ab1b195a673e8eb502.png",
     "static/media/Coffee5.png": "/static/media/Coffee5.b34625944439dd858f5c.png",
+    "static/media/compare3.png": "/static/media/compare3.e0137df30c3a97994c5f.png",
     "static/media/quiz.png": "/static/media/quiz.717e3c6e89c5f44687e8.png",
     "static/media/quiz1.png": "/static/media/quiz1.486eb6a27d01117fbb23.png",
+    "static/media/compare2.png": "/static/media/compare2.6d74cc36042b064b0454.png",
     "static/media/porfolio.png": "/static/media/porfolio.bea5b1be893c3953bfa8.png",
     "static/media/meme.png": "/static/media/meme.48c6a100c86e4847a3d1.png",
     "static/media/advice4.png": "/static/media/advice4.967a71a3649bc2282e79.png",
@@ -26,6 +31,9 @@
     "static/media/Profile.png": "/static/media/Profile.1f3bdae10f523d10bbe9.png",
     "static/media/meme1.png": "/static/media/meme1.82167fa9e56cb09fd1a5.png",
     "static/media/advice3.png": "/static/media/advice3.482bf01fae3016ee2f59.png",
+    "static/media/pte2.png": "/static/media/pte2.1d53a86afa304a99bc0d.png",
+    "static/media/pte3.png": "/static/media/pte3.59a67f00302726f6e92b.png",
+    "static/media/compare4.png": "/static/media/compare4.945b51cb7df6c38fcaaa.png",
     "static/media/vinh.png": "/static/media/vinh.d9aec147620d24510cf8.png",
     "static/media/monash.png": "/static/media/monash.b93180ed4776e6d30178.png",
     "static/media/jsFighting3.png": "/static/media/jsFighting3.cc290ddfbd0a37e901bd.png",
@@ -52,11 +60,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.85f6a86e.css.map": "/static/css/main.85f6a86e.css.map",
-    "main.13a3f9c2.js.map": "/static/js/main.13a3f9c2.js.map",
+    "main.fb7cf8a6.js.map": "/static/js/main.fb7cf8a6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f6a86e.css",
-    "static/js/main.13a3f9c2.js"
+    "static/js/main.fb7cf8a6.js"
   ]
 }
