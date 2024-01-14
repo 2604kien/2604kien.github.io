@@ -1,4 +1,2 @@
 
-export const description=`I am Hong Kien Nguyen. I graduated Bachelor of Information Technology and Bachelor of Business, 
-specialised in Software Development, Web Development, and Accounting from Monash University. I am not afraid of challenges or taking on
- full responsibility for the task and I will always try to learn and improve myself day by day.`;
+export const description=`I am Hong Kien Nguyen. I am a passionate Full Stack Developer with a proven track record in crafting dynamic and responsive web solutions. Dedicated to staying at the forefront of technology trends, I bring a blend of technical expertise and creative problem-solving to deliver seamless and user-centric experiences. `;
