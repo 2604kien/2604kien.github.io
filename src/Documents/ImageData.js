@@ -73,7 +73,7 @@ export const imageData=[{
 },{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
-    description: "This is a full-stack project for a coffee shop that offers visitor booking, diverse recipes for members, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
+    description: "HIASE an online platform for a coffee shop that offers visitor booking, diverse recipes for members who registered, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
     skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
     duration: "",
     link: "https://www.hiase.cafe/"
