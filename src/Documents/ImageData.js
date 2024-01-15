@@ -21,6 +21,8 @@ import fighting3 from "../Components/Images/jsFighting3.png"
 
 import meme from "../Components/Images/meme.png"
 import meme1 from "../Components/Images/meme1.png"
+import meme2 from "../Components/Images/meme2.png"
+import meme3 from "../Components/Images/meme3.png"
 
 import quiz from "../Components/Images/quiz.png"
 import quiz1 from "../Components/Images/quiz1.png"
@@ -83,7 +85,14 @@ export const imageData=[{
     description: "This project is dedicated to building a comprehensive portfolio website showcasing my skills as a developer, aimed at effectively communicating my expertise and capabilities.",
     skill: "ReactJS, Redux, GSAP, Figma, Design, CSS, Git",
     duration: "",
-    link: "https://github.com/2604kien/2604kien.github.io"
+    link: "https://2604kien.github.io/"
+},{
+    name: "Meme Generator",
+    src: [meme, meme1, meme2, meme3],
+    description: "This is a meme generator that generates random memes and allows users to add multiple text input fields, change the font size, and move the text around then the user can take a screenshot of the meme on the screen.",
+    skill: "ReactJs, CSS, Javascript, Git",
+    duration: "",
+    link: "https://memegenerator-93m3.onrender.com/"
 },{
         name: "Racing Game Simulator",
         src: [racing1, racing2, racing3, racing4, racing5, racing6],
@@ -92,13 +101,6 @@ export const imageData=[{
         duration: "",
         link: "https://github.com/2604kien/racer-simulator"
     },{
-            name: "Meme Generator",
-            src: [meme, meme1],
-            description: "The primary objective of this project is to refine skills in fetching data from APIs and incorporating external libraries in React, providing practical hands-on experience in these key areas.",
-            skill: "ReactJs, CSS, Javascript, Git",
-            duration: "",
-            link: "https://github.com/2604kien/better-meme-generator"
-        },{
         name: "Employee Poll",
         src: [poll1, poll2, poll3, poll4],
         description: "Designed as a poll dashboard application, this tool enables individuals within an organization to post inquiries and gather votes efficiently, facilitating quick and comprehensive survey responses.",
