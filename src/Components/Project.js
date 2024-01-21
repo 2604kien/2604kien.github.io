@@ -25,12 +25,12 @@ export default function Project(){
         return ()=>{ctx.revert()}
     },[]);
     const projectElement=imageData.map((data, i)=>{
-        if(i<=5) return<ProjectContent link={data.link} key={i} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>
-        else return <></>;
+        if(i<=5) return<ProjectContent link={data.link} key={i+Math.random()*1000} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>;
+        return;
 })
     return(
-        <>
-            <div id="project" className="project">
+        <div >
+            <div  id="project" className="project">
                 <h1 ref={el=>{title=el}} style={{fontWeight: "bold", marginBottom: "70px"}}>PROJECTS</h1>
                 <div className="g-container">
                     {projectElement}
@@ -52,6 +52,6 @@ export default function Project(){
                     }}>Click for more!!!</h2>
             </div>
            
-        </>
+        </div>
     )
 }

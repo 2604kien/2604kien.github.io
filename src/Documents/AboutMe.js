@@ -1,2 +1,2 @@
 
-export const description=`I am Hong Kien Nguyen. I am a passionate Full Stack Developer with 2.5 years of professional experience crafting dynamic and responsive web solutions. Dedicated to staying at the forefront of technology trends, I combine technical expertise and creative problem-solving to deliver seamless and user-centric experiences.`;
+export const description=`I am a passionate Full Stack Developer with 2.5 years of professional experience crafting dynamic and responsive web solutions. Dedicated to staying at the forefront of technology trends, I combine technical expertise and creative problem-solving to deliver seamless and user-centric experiences.`;
