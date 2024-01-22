@@ -29,7 +29,7 @@ export default function Project(){
         else return <></>;
 })
     return(
-        <div >
+        <>
             <div  id="project" className="project">
                 <h1 ref={el=>{title=el}} style={{fontWeight: "bold", marginBottom: "70px"}}>PROJECTS</h1>
                 <div className="g-container">
@@ -52,6 +52,6 @@ export default function Project(){
                     }}>Click for more!!!</h2>
             </div>
            
-        </div>
+        </>
     )
 }
