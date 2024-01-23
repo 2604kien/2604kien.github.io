@@ -5,7 +5,6 @@ import {motion, useAnimation, useInView} from "framer-motion"
 import  ReactDOM  from "react-dom";
 import "./css/overlay.css";
 import { useSelector, useDispatch } from "react-redux";
-import Monitor from "./Images/Monitor.png"
 import { setIsClick } from "../reducers/projectSlice";
 
 export default function ProjectDisplay(){

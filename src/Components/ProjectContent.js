@@ -5,7 +5,6 @@ import { useDispatch } from "react-redux";
 import {setIsClick, addToProjectDisplay} from "../reducers/projectSlice";
 export default function ProjectContent(props){
     const dispatch=useDispatch();
-    const [currIMG, setCurrIMG]=React.useState(0);
     let component=React.useRef(null);
     let isInView=useInView(component, { once: false });
     const control=useAnimation();
@@ -32,7 +31,7 @@ export default function ProjectContent(props){
     return (
         <div className="projectItem" onClick={handleClick}>
             <div className="wrapper">
-                <div className="cover-image" style={{backgroundImage:`url(${props.src[currIMG]})`, backgroundSize:"cover"}}></div>
+                <div className="cover-image" style={{backgroundImage:`url(${props.src[0]})`, backgroundSize:"cover"}}></div>
             </div>
             {/* <div className="clickToKnow" >
                 <h2 style={{color: props.id===3? "white":"black",display: "flex", justifyContent:"center", flexDirection: "row", width: "100%",textDecoration:"underline", marginTop:"-100px"}}>Click To Know More</h2>
