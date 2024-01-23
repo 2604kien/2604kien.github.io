@@ -26,7 +26,7 @@ export default function Project(){
     },[]);
     const projectElement=imageData.map((data, i)=>{
         if(i<=5) return<ProjectContent link={data.link} key={i+Math.random()*1000} id={i} src={data.src} description={data.description} duration={data.duration} skill={data.skill} name={data.name}/>
-        else return <></>;
+        else return (<></>);
 })
     return(
         <>
