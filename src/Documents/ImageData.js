@@ -4,6 +4,9 @@ import advice2 from "../Components/Images/advice2.png"
 import advice3 from "../Components/Images/advice3.png"
 import advice4 from "../Components/Images/advice4.png"
 
+import nineman from "../Components/Images/9man.png"
+import nineman1 from "../Components/Images/9man1.png"
+
 import pte1 from "../Components/Images/pte1.png"
 import pte2 from "../Components/Images/pte2.png"
 import pte3 from "../Components/Images/pte3.png"
@@ -122,6 +125,15 @@ export const imageData=[{
     skill: "Javascript, HTML, CSS, Git",
     duration: "",
     link: "https://github.com/2604kien/JsFighting"
+},
+{
+
+name: "Nine Man Moris Game",
+src: [nineman, nineman1],
+description: "The aim of this project is to get a better understanding of Object Oriented Programming.",
+skill: "Java, OOP, Git Control",
+duration: "",
+link: "https://github.com/2604kien/9ManMorris"
 }
 ]
 
