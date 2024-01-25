@@ -54,6 +54,11 @@ import Coffee6 from "../Components/Images/Coffee6.png"
 import Coffee7 from "../Components/Images/Coffee7.png"
 import Coffee8 from "../Components/Images/Coffee8.png"
 import Coffee9 from "../Components/Images/Coffee9.png"
+
+import hotel1 from "../Components/Images/hotel1.png"
+import hotel2 from "../Components/Images/hotel2.png"
+import hotel25 from "../Components/Images/hotel2.5.png"
+import hotel3 from "../Components/Images/hotel3.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
@@ -82,6 +87,13 @@ export const imageData=[{
     skill: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
     duration: "",
     link: "https://www.hiase.cafe/"
+},{
+    name: "Royal Hotel Platform",
+    src: [hotel1, hotel2, hotel25, hotel3],
+    description: `(The project is still in development stage) \nRoyal Hotel Online is a platform for user to make a room reserve with multiple class from standard basic room to Presidential Suite with top-notch amenities.`,
+    skill: "ReactJS, Redux, NodeJS, NestJS, PostgreSQL, Docker, HTML, CSS, Git",
+    duration: "",
+    link: "#"
 },{
     name: "Website Porfolio",
     src: [profile],

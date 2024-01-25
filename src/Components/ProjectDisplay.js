@@ -58,7 +58,7 @@ export default function ProjectDisplay(){
                             <img src={next} onClick={nextImage} style={{visibility: data.src.length<=1?"hidden": "visible", cursor: "pointer"}} alt="Right Arrow" className="next" />
                         </div>
                         <p style={{fontSize: "1.2rem",width:"75%", marginLeft:"12.5%"}}><span style={{fontWeight: "600"}}>Skills:</span> {data.skill}</p>
-                        <p style={{fontSize: "1.2rem", width:"75%", marginLeft:"12.5%"}}>{data.description}</p>   
+                        <p style={{fontSize: "1.2rem", width:"75%", marginLeft:"12.5%", whiteSpace:"pre-wrap"}}>{data.description}</p>   
                         <p style={{fontSize: "1.2rem", width:"75%", marginLeft:"12.5%"}}><span style={{fontWeight: "bold"}}>Link:</span> <a href={data.link}>{data.link}</a></p>
                 </motion.div>
              </div>
