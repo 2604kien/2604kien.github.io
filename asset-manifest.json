@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e840ad36.css",
-    "main.js": "/static/js/main.edd991a2.js",
+    "main.js": "/static/js/main.35b17216.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/static/media/Coffee1.8322fe8a8b369529cd1b.png",
     "static/media/Coffee3.png": "/static/media/Coffee3.793aba8a86697ed464af.png",
@@ -16,9 +16,11 @@
     "static/media/racing1.png": "/static/media/racing1.d7093a8158b8954ae7d2.png",
     "static/media/hotel1.png": "/static/media/hotel1.d31a3d1bd7a35f403ee6.png",
     "static/media/pte1.png": "/static/media/pte1.5a219cd6cd08fadeecc9.png",
+    "static/media/carina1.png": "/static/media/carina1.5e431e52769cc5ee916e.png",
     "static/media/racing2-5.png": "/static/media/racing2-5.6a17660c28175d85a8b0.png",
     "static/media/meme3.png": "/static/media/meme3.1df02f7e4ef65cf37889.png",
     "static/media/hotel2.5.png": "/static/media/hotel2.5.91a145c7eed2c6e9a3ac.png",
+    "static/media/carina2.png": "/static/media/carina2.cb3f2f261b8426e8b4f2.png",
     "static/media/racing2.png": "/static/media/racing2.4396e0f6875aece990d8.png",
     "static/media/compare1.png": "/static/media/compare1.ef9f3b4c15071ed20563.png",
     "static/media/meme1.png": "/static/media/meme1.c45ae2263204b6fb380e.png",
@@ -30,6 +32,7 @@
     "static/media/quiz1.png": "/static/media/quiz1.486eb6a27d01117fbb23.png",
     "static/media/compare2.png": "/static/media/compare2.6d74cc36042b064b0454.png",
     "static/media/porfolio.png": "/static/media/porfolio.bea5b1be893c3953bfa8.png",
+    "static/media/carina3.png": "/static/media/carina3.e4152802d3bb6fdf8a1b.png",
     "static/media/advice4.png": "/static/media/advice4.967a71a3649bc2282e79.png",
     "static/media/racing3.png": "/static/media/racing3.18e93580caa9f4346c52.png",
     "static/media/mySQL.png": "/static/media/mySQL.167c88550478e6f0f85c.png",
@@ -68,11 +71,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/github.svg": "/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.e840ad36.css.map": "/static/css/main.e840ad36.css.map",
-    "main.edd991a2.js.map": "/static/js/main.edd991a2.js.map",
+    "main.35b17216.js.map": "/static/js/main.35b17216.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e840ad36.css",
-    "static/js/main.edd991a2.js"
+    "static/js/main.35b17216.js"
   ]
 }
