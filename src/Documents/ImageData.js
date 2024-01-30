@@ -17,6 +17,10 @@ import compare3 from "../Components/Images/compare3.png"
 import compare4 from "../Components/Images/compare4.png"
 import compare5 from "../Components/Images/compare5.png"
 
+import carina1 from "../Components/Images/carina1.png"
+import carina2 from "../Components/Images/carina2.png"
+import carina3 from "../Components/Images/carina3.png"
+
 import fighting from "../Components/Images/jsFighting.png"
 import fighting1 from "../Components/Images/jsFighting1.png"
 import fighting2 from "../Components/Images/jsFighting2.png"
@@ -81,6 +85,14 @@ export const imageData=[{
     duration: "Jan 2023 - Present",
     link: "https://comparensave.com.au"
 },{
+    name: "Carina Eye Care",
+    src: [carina1, carina2, carina3],
+    description: "Carina Eye Care is an online platform that allow people with vision problem to book appointment and contact with Dr Carina Trinh for consultations and treatments.",
+    skill: "ReactJS, NextJs, Headless CMS (Storyblok), HTML, CSS, Typescript, Git",
+    duration: "Jan 2023 - Present",
+    link: "https://carina-eye-care.vercel.app/"
+}
+,{
     name: "HIASE Coffee Shop",
     src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
     description: "HIASE an online platform for a coffee shop that offers visitor booking, diverse recipes for members who registered, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
