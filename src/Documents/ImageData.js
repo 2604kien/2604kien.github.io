@@ -63,6 +63,10 @@ import hotel1 from "../Components/Images/hotel1.png"
 import hotel2 from "../Components/Images/hotel2.png"
 import hotel25 from "../Components/Images/hotel2.5.png"
 import hotel3 from "../Components/Images/hotel3.png"
+import hotel4 from "../Components/Images/hotel4.png"
+import hotel5 from "../Components/Images/hotel5.png"
+import hotel6 from "../Components/Images/hotel6.png"
+import hotel7 from "../Components/Images/hotel7.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
@@ -101,7 +105,7 @@ export const imageData=[{
     link: "https://www.hiase.cafe/"
 },{
     name: "Royal Hotel Platform",
-    src: [hotel1, hotel2, hotel25, hotel3],
+    src: [hotel1, hotel2, hotel25, hotel3, hotel4, hotel5,hotel6, hotel7],
     description: `(The project is still in development stage) \nRoyal Hotel Online is a platform for user to make a room reserve with multiple class from standard basic room to Presidential Suite with top-notch amenities.`,
     skill: "ReactJS, Redux, NodeJS, NestJS, PostgreSQL, Docker, HTML, CSS, Git",
     duration: "",
