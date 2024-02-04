@@ -109,7 +109,7 @@ export const imageData=[{
     description: `(The project is still in development stage) \nRoyal Hotel Online is a platform for user to make a room reserve with multiple class from standard basic room to Presidential Suite with top-notch amenities.`,
     skill: "ReactJS, Redux, NodeJS, NestJS, PostgreSQL, Docker, HTML, CSS, Git",
     duration: "",
-    link: "#"
+    link: "https://github.com/2604kien/hotel-booking"
 },{
     name: "Website Porfolio",
     src: [profile],
