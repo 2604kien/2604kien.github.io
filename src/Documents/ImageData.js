@@ -71,7 +71,7 @@ export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
     description: "Advice Cyborg is an automated online platform that provides tailored financial advice to individuals facing various financial situations",
-    skill: "React, Redux, Express, HTML, CSS, Javascript, MySQL, Git",
+    skill: "PHP, CakePHP, HTML, CSS, Javascript, MySQL, Git",
     duration: "Feb 2023 - Jun 2023",
     link: "https://advicecyborg.com.au/"
 },{

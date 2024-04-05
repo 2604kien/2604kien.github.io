@@ -1,2 +1,2 @@
 
-export const description=`I am a passionate Full Stack Developer with nearly 3 years of professional experience crafting dynamic and responsive web solutions. Dedicated to staying at the forefront of technology trends, I combine technical expertise and creative problem-solving to deliver seamless and user-centric experiences.`;
+export const description=`I am a passionate Full Stack Developer with 3 years of professional experience crafting dynamic and responsive web solutions. Dedicated to staying at the forefront of technology trends, I combine technical expertise and creative problem-solving to deliver seamless and user-centric experiences.`;
