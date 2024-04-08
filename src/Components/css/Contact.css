@@ -41,8 +41,8 @@ form > input{
     border-right: none;
 }
 form > button:hover{
-    transform: scale(1.08);
-    transition: transform 0.5s ease;
+    filter:brightness(0.75);
+    transition: filter 0.3s ease;
 }
 .message{
     padding-left: 10px;

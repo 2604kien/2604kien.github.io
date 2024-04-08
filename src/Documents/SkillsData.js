@@ -15,21 +15,21 @@ export const skills=[{
     proficiency: 95,
     image: js
 },{
-    name: "ReactJS",
+    name: "React",
     proficiency: 95,
     image: rct
 },
 {
-    name: "NodeJS/Express",
+    name: "Node.js/Express",
     proficiency: 95,
     image: node
 },{
-    name: "NestJS",
-    proficiency: 90,
+    name: "Node.js/Nest.js",
+    proficiency: 95,
     image: nestjs
 },{
     name: "HTML",
-    proficiency: 87,
+    proficiency: 90,
     image: html
 },{
     name: "CSS",
