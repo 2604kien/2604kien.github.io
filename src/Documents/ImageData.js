@@ -99,7 +99,7 @@ export const imageData=[{
     name:"Mentem",
     src:[mentem1, mentem2, mentem3],
     description:"Mentem is an online platform that help UNSW connect with different people to build a strong workforce through reskilling and upskilling at scale.",
-    skill:"React, Next.js, HTML, CSS, Typescript, Git",
+    skill:"ASP.NET Core, HTML, CSS, Bootstrap, Git",
     duration:"",
     link:"https://www.mentem.co/"
 },
