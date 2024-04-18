@@ -109,7 +109,7 @@ export const imageData=[{
     description: "Carina Eye Care is an online platform that allow people with vision problem to book appointment and contact with Dr Carina Trinh for consultations and treatments.",
     skill: "React, Next.js, Headless CMS (Storyblok), HTML, CSS, Typescript, Git",
     duration: "Jan 2023 - Present",
-    link: "https://carina-eye-care.vercel.app/"
+    link: "https://www.carinaeyecare.com.au/"
 }
 ,{
     name: "HIASE Coffee Shop",
