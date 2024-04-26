@@ -74,6 +74,11 @@ import hotel7 from "../Components/Images/hotel7.png"
 
 import smartbill1 from "../Components/Images/smartbills1.png"
 import smartbill2 from "../Components/Images/smartbills2.png"
+import smartbill3 from "../Components/Images/smartbills3.png"
+import smartbill4 from "../Components/Images/smartbills4.png"
+import smartbill5 from "../Components/Images/smartbills5.png"
+import smartbill6 from "../Components/Images/smartbills6.png"
+import smartbill7 from "../Components/Images/smartbills7.png"
 export const imageData=[{
     name: "Advice Cyborg",
     src: [advice, advice1, advice2, advice3, advice4],
@@ -120,7 +125,7 @@ export const imageData=[{
     link: "https://www.hiase.cafe/"
 },{
     name:"Smartbills",
-    src: [smartbill1, smartbill2],
+    src: [smartbill1, smartbill2, smartbill3, smartbill4, smartbill5, smartbill6, smartbill7],
     description: "Smartbills revolutionizes bill management by offering an intuitive online platform where users effortlessly coordinate group payments. Say goodbye to the hassle of tracking who paid what – Smartbills streamlines the process for seamless bill management and payment allocation.",
     skill:"React, Redux, Node.js, Nest.js, Typescript, Docker HTML, CSS, Git",
     duration:"",
