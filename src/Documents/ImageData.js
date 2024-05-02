@@ -115,14 +115,6 @@ export const imageData=[{
     skill: "React, Next.js, Headless CMS (Storyblok), HTML, CSS, Typescript, Git",
     duration: "Jan 2023 - Present",
     link: "https://www.carinaeyecare.com.au/"
-}
-,{
-    name: "HIASE Coffee Shop",
-    src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
-    description: "HIASE an online platform for a coffee shop that offers visitor booking, diverse recipes for members who registered, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
-    skill: "React, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
-    duration: "",
-    link: "https://www.hiase.cafe/"
 },{
     name:"Smartbills",
     src: [smartbill1, smartbill2, smartbill3, smartbill4, smartbill5, smartbill6, smartbill7],
@@ -130,6 +122,13 @@ export const imageData=[{
     skill:"React, Redux, Node.js, Nest.js, Typescript, Docker HTML, CSS, Git",
     duration:"",
     link:"#underdevelopment"
+},{
+    name: "HIASE Coffee Shop",
+    src: [Coffee1, Coffee2, Coffee3, Coffee4, Coffee5, Coffee5h, Coffee6, Coffee7, Coffee8, Coffee9],
+    description: "HIASE an online platform for a coffee shop that offers visitor booking, diverse recipes for members who registered, and easy data management for admins. Robust authentication and authorisation using JWT access/refresh tokens, ensuring a seamless user experience.",
+    skill: "React, Redux, NodeJS, ExpressJS, MongoDB, HTML, CSS, Git",
+    duration: "",
+    link: "https://www.hiase.cafe/"
 },{
     name: "Royal Hotel Platform",
     src: [hotel1, hotel2, hotel25, hotel3, hotel4, hotel5,hotel6, hotel7],
