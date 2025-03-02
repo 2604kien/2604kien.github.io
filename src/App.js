@@ -31,8 +31,9 @@ function App() {
         <Contact/>
         </>
       }/>
-        <Route path='*' element={<Error404/>}/>
         <Route path='mybaby' element={<MyBaby/>}/>
+        <Route path='*' element={<Error404/>}/>
+        
       </Route>
       <Route path='all-projects' element={<AllProjectDisplay/>}/>
     </Routes>    
