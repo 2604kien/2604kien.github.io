@@ -1,9 +1,6 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addToMyBabyData } from "../../reducers/myBabySlice";
 import ActivityCard from "./ActivityCard";
 export default function ActivitySelect(props){
-    const dateData=useSelector(state=>state.mybaby.entities)
     const handleSubmit=(e)=>{
         e.preventDefault();
         props.handleActivitiesSelect();

@@ -1,8 +1,6 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
 import FoodCard from "./FoodCard";
 export default function FoodSelect(props){
-    const dateData=useSelector(state=>state.mybaby.entities)
     const handleSubmit=(e)=>{
         e.preventDefault();
         props.handleFoodSelect();

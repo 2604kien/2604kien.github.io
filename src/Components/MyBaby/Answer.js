@@ -1,9 +1,8 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { sendMessage } from "../../reducers/myBabySlice";
 import AnswerCard from "./AnswerCard";
 export default function Answer(props){
-    const dateData=useSelector(state=>state.mybaby.entities)
     const dispatch=useDispatch();
     const handleSubmit=(e)=>{
         e.preventDefault();
