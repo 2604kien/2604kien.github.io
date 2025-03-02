@@ -11,6 +11,7 @@ import { useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import Error404 from './Components/Error404';
 import AllProjectDisplay from './Components/AllProjectDisplay';
+import MyBaby from './Components/MyBaby';
 function App() {
   const isClicked=useSelector(state=>state.project.isClicked);
   
@@ -31,6 +32,7 @@ function App() {
         </>
       }/>
         <Route path='*' element={<Error404/>}/>
+        <Route path='mybaby' element={<MyBaby/>}/>
       </Route>
       <Route path='all-projects' element={<AllProjectDisplay/>}/>
     </Routes>    

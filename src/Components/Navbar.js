@@ -16,9 +16,9 @@ export default function Navbar(){
     return (
         <>
         <nav>
-            <div onClick={toggle} className="toggle_btn" >
+        {!pathname.includes("mybaby")&&<div onClick={toggle} className="toggle_btn" >
                 <i className="fa-solid fa-bars"></i>
-            </div>
+            </div>}
             <ul className={dropDown?"dropdown open": "dropdown"}>
             <li onClick={(e)=>{e.preventDefault(); toggle(); if (pathname==="/")window.location.replace("#project"); else {navigate('/')} }}> Project </li>          
                 <li onClick={(e)=>{e.preventDefault(); toggle(); if (pathname==="/")window.location.replace("#skills"); else {navigate('/')} }}> About Me </li>
@@ -44,11 +44,11 @@ export default function Navbar(){
                         transition={transition}
                     />
                 </svg>
-                <li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#project"); else {navigate('/')} }}> Project </li>          
-                <li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#skills"); else {navigate('/')} }}> About Me </li>
-                <li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#education"); else {navigate('/')} }}> Education </li>
-                <li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#contact"); else {navigate('/')} }}> Contact </li>
-                <li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
+                {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#project"); else {navigate('/')} }}> Project </li>}
+                {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#skills"); else {navigate('/')} }}> About Me </li>}
+                {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#education"); else {navigate('/')} }}> Education </li>}
+                {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#contact"); else {navigate('/')} }}> Contact </li>}
+                {!pathname.includes("mybaby")&&<li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>}
             </ul>
             
         </nav>
