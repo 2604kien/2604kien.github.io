@@ -26,7 +26,7 @@ export default function Assignment(){
             <p>• Purpose:</p> 
             <p>The Artful Parent presents imaginative art activities and concepts for kids and focuses primarily on the creative process above the final work. The Artful Parent website enables exploration and self-expression in kids through unrestricted visual art activities which makes it an excellent resource for educators teaching early childhood and primary students.</p>
             <p>• Critique: </p>
-            <p>Strengths: The website offers easy navigation combined with practical activities that use accessible materials while supporting child-directed learning. The site facilitates arts integration which connects artistic creation with literacy development as well as seasonal themes and health promotion</p>
+            <p>Strengths: The website offers easy navigation combined with practical activities that use accessible materials while supporting child-directed learning. The site facilitates arts integration which connects artistic creation with literacy development as well as seasonal themes and health promotion.</p>
             <p>Weaknesses: Educators must modify activities since the content does not follow curriculum guidelines and lacks organized lesson plans.</p>
             <p>• Practical Classroom Activity:</p>
             <p>- The post titled "Watercolour Resist with Crayons" shows children using white crayons to create designs on paper which become visible after applying watercolour paint.</p>
@@ -57,7 +57,6 @@ export default function Assignment(){
             <p>Weaknesses: The ELC materials lack sufficient practical activities requiring teachers of 4–5-year-olds to modify resources for effective use.</p>
             <p>• Practical Classroom Activity: </p>
             <p>- The video “Art in Nature” serves as inspiration for students to engage in artistic projects during an outdoor session.</p>
-            <p>- The video “Art in Nature” serves as inspiration for students to engage in artistic projects during an outdoor session.</p>
             <p>- Children collect leaves and sticks from outdoors to make natural texture collages with flowers. Through discussions students learn about textures and symmetry while connecting artistic concepts to scientific principles and eco-friendly practices.</p>
             <p>• Learning Outcome: Students learn to use natural materials as art materials while enhancing their pattern recognition abilities.</p>
             <p>• Assessment: Record students’ creations alongside their skills in identifying textures and describing their artistic decisions.</p>
@@ -72,7 +71,7 @@ export default function Assignment(){
             <p>Weaknesses: Several materials focus on American themes and require modification to match Australian educational standards and cultural context.</p>
             <p>• Practical Classroom Activity: </p>
             <p>- Create a version of the “Lines and Shapes Around Us” lesson suitable for young children.</p>
-            <p>- Create a version of the “Lines and Shapes Around Us” lesson suitable for young children.</p>
+            <p>- Students search for different shapes within the classroom then sketch them and transform their drawings into creative characters through collage work which combines math skills with language and visual arts education.</p>
             <p>- Learning Outcome: Pupils explore geometric patterns and express their creativity by transforming them into art pieces.</p>
             <p>- Assessment: Assess how students selected different shapes and described their collaged creations verbally.</p>
             <p>- Differentiation: Offer shape templates or tactile outlines to learners who require additional visual or sensory assistance.</p>
@@ -90,11 +89,11 @@ export default function Assignment(){
             <p>- Integrated Activity Idea: </p>
             <p>Students who learn simple mathematical patterns (AB, ABC) collaborate in small groups to develop a dance phrase with body percussion and movements such as stomp–clap–turn for the ABC pattern. The music accompanies each child's pattern performance before peers attempt to duplicate the movement sequence.</p>
             <p>• Learning Outcome: Students develop their rhythm and coordination by identifying and replicating movement patterns which they create.</p>
-            <p>• Learning Outcome: Students develop their rhythm and coordination by identifying and replicating movement patterns which they create.</p>
+            <p>• Assessment: Evaluate student performance by checking their capability to reproduce and describe their movement pattern. Implement a visual checklist to evaluate pattern recognition and performance skills.</p>
             <p>• Differentiation: Students who require additional help can benefit from cards that display movement symbols like 🦶 for stomp and 👏 for clap.</p>
             <hr/>
             <p>2. Ausdance – Dance Resources </p>
-            <p>Website: <a href="https://www.danceteachingideas.com  " target="blank">https://www.danceteachingideas.com</a></p>
+            <p>Website: <a href="https://ausdance.org.au/resources" target="blank">https://ausdance.org.au/resources</a></p>
             <p>• Purpose: </p>
             <p>Ausdance provides educators with dance resources that fit the Australian curriculum while supporting advocacy work and inclusive teaching practices alongside professional development opportunities.</p>
             <p>• Critique: </p>
@@ -136,7 +135,7 @@ export default function Assignment(){
             <p>Students choose between lying on yoga mats or sitting in a circle while they listen to the audio. Throughout the story they physically enact flying over mountains then transition to floating amidst clouds and finally stretch upwards to reach the stars. Following the activity students illustrate their favorite journey moment and explain their movements.</p>
             <p>• Learning Outcome: Through narrative prompts children show expressive movements and start sequencing their actions according to the story's framework.</p>
             <p>• Assessment: Creativity and comprehension assessment should be based on observation notes and student reflections/drawings.</p>
-            <p>• Assessment: Creativity and comprehension assessment should be based on observation notes and student reflections/drawings.</p>
+            <p>• Differentiation: Before children participate in the activity show them how to move through the story elements first and use visual symbols to depict key story features.</p>
             <h3 id="section-3"><b>🎭 DRAMA – Annotated Toolkit (4 websites)</b></h3>
             <hr/>
             <p>1. Drama Resource</p>
