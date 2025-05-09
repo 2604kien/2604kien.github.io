@@ -12,6 +12,9 @@ nav{
     z-index: 100;
 
 }
+.tab{
+  margin-left: 50px;
+}
 .nav-item{
     background-color: #000000;
     display: flex;
