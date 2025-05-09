@@ -61,6 +61,10 @@ nav{
   font-weight: bold;
   font-size: 1.5rem;
 }
+.ref-item:hover{
+  scale: 1.1;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
 .dropdown>li>a{
   
   color: white;
