@@ -10,11 +10,71 @@ export default function Assignment(){
                 <div className="subMenu" style={{marginLeft:"10px",borderRadius:"10px",position:"fixed", boxShadow:"0px 0px 5px 0px", width:"23%", height:"fit-content", padding:"50px 0px", minHeight:"400px"}}>
                 <div style={{width:"100%",display:"flex", justifyContent:"center", flexDirection:"column", gap:"20px"}}>
                     <h4 style={{listStyle:"none", width:"100%", textAlign:"center"}}>MENU</h4>
-                    <div className="ref-item" style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#section-1"); else {navigate('/')} }}> 🎨 VISUAL ARTS – Annotated Toolkit</div>
-                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#section-2"); else {navigate('/')} }}> 💃 DANCE – Annotated Toolkit </div>
-                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#section-3"); else {navigate('/')} }}> 🎭 DRAMA – Annotated Toolkit </div>
-                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#section-4"); else {navigate('/')} }}> 🎵 MUSIC – Annotated Toolkit </div>
-                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#section-5"); else {navigate('/')} }}> 🎬 MEDIA ARTS – Annotated Toolkit</div>
+                    <div className="ref-item" style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e) => {
+                        e.preventDefault();
+
+                        if (pathname === "/") {
+                        const section = document.querySelector("#section-1");
+                        if (section) {
+                            const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - 80;
+                            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                        }
+                        } else {
+                        navigate("/");
+                        }
+                    }}> 🎨 VISUAL ARTS – Annotated Toolkit</div>
+                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e) => {
+                        e.preventDefault();
+
+                        if (pathname === "/") {
+                        const section = document.querySelector("#section-2");
+                        if (section) {
+                            const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - 80;
+                            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                        }
+                        } else {
+                        navigate("/");
+                        }
+                    }}> 💃 DANCE – Annotated Toolkit </div>
+                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e) => {
+                        e.preventDefault();
+
+                        if (pathname === "/") {
+                        const section = document.querySelector("#section-3");
+                        if (section) {
+                            const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - 80;
+                            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                        }
+                        } else {
+                        navigate("/");
+                        }
+                    }}> 🎭 DRAMA – Annotated Toolkit </div>
+                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e) => {
+                        e.preventDefault();
+
+                        if (pathname === "/") {
+                        const section = document.querySelector("#section-4");
+                        if (section) {
+                            const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - 80;
+                            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                        }
+                        } else {
+                        navigate("/");
+                        }
+                    }}> 🎵 MUSIC – Annotated Toolkit </div>
+                    <div className="ref-item"  style={{listStyle:"none", width:"100%", textAlign:"center", cursor:"pointer"}} onClick={(e) => {
+                        e.preventDefault();
+
+                        if (pathname === "/") {
+                        const section = document.querySelector("#section-5");
+                        if (section) {
+                            const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - 80;
+                            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                        }
+                        } else {
+                        navigate("/");
+                        }
+                    }}> 🎬 MEDIA ARTS – Annotated Toolkit</div>
                 </div>
                 </div>
             </div>
