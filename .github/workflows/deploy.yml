@@ -1,9 +1,7 @@
 name: CI/CD
-
 on:
   push:
     branches: [ main ]
-
 jobs:
   build:
 
@@ -41,7 +39,7 @@ jobs:
 
         gh api --hostname github.com user \
           --jq '"Authenticated as: " + .login'
-          
+
     - name: Build
       run: npm run build
 
