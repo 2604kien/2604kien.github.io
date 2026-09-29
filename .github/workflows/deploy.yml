@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        persist-credentials: false
 
     - name: Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -25,6 +27,21 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Verify deployment token
+      shell: bash
+      env:
+        GH_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+      run: |
+        set -euo pipefail
+
+        if [ -z "${GH_TOKEN:-}" ]; then
+          echo "::error::ACTIONS_DEPLOY_ACCESS_TOKEN is missing or unavailable."
+          exit 1
+        fi
+
+        gh api --hostname github.com user \
+          --jq '"Authenticated as: " + .login'
+          
     - name: Build
       run: npm run build
 
