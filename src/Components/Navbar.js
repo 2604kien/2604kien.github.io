@@ -24,7 +24,7 @@ export default function Navbar(){
                 <li onClick={(e)=>{e.preventDefault(); toggle(); if (pathname==="/")window.location.replace("#skills"); else {navigate('/')} }}> About Me </li>
                 <li onClick={(e)=>{e.preventDefault(); toggle(); if (pathname==="/")window.location.replace("#education"); else {navigate('/')} }}> Education </li>
                 <li onClick={(e)=>{e.preventDefault(); toggle(); if (pathname==="/")window.location.replace("#contact"); else {navigate('/')} }}> Contact </li>
-                <li onClick={()=> toggle()}><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>
+                <li onClick={()=> toggle()}><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/Hong_Kien_Nguyen_Resume.pdf" download>⤓ Resume</a> </li>
             </ul>
             <ul className="nav-item">
                 <svg onClick={()=>{document.documentElement.scrollTop=0}} style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="137px"  height="60px">
@@ -48,7 +48,7 @@ export default function Navbar(){
                 {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#skills"); else {navigate('/')} }}> About Me </li>}
                 {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#education"); else {navigate('/')} }}> Education </li>}
                 {!pathname.includes("mybaby")&&<li onClick={(e)=>{e.preventDefault(); if (pathname==="/")window.location.replace("#contact"); else {navigate('/')} }}> Contact </li>}
-                {!pathname.includes("mybaby")&&<li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/RESUME_HongKienNguyen.pdf" download>⤓ Resume</a> </li>}
+                {!pathname.includes("mybaby")&&<li ><a style={{backgroundColor:"transparent", textDecoration:"none", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}} href="/Resume/Hong_Kien_Nguyen_Resume.pdf" download>⤓ Resume</a> </li>}
             </ul>
             
         </nav>
